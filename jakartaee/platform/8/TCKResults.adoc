@@ -37,20 +37,11 @@ OpenJDK 8 + HotSpot (jdk8u222-b10)
 +
 Apache Derby, Linux, Ubuntu 16.04
 
-Test results:
+Test Results:
 
-Stage Name: appclient
-[javatest.batch] ********************************************************************************
-[javatest.batch] Completed running 36 tests.
-[javatest.batch] Number of Tests Passed      = 36
-[javatest.batch] Number of Tests Failed      = 0
-[javatest.batch] Number of Tests with Errors = 0
-[javatest.batch] ********************************************************************************
- 
-Stage Name: assembly
-[javatest.batch] ********************************************************************************
-[javatest.batch] Completed running 30 tests.
-[javatest.batch] Number of Tests Passed      = 30
-[javatest.batch] Number of Tests Failed      = 0
-[javatest.batch] Number of Tests with Errors = 0
-[javatest.batch] ********************************************************************************
+Stage Name: Test
+*************************************
+Test ran 999
+*************************************
+
+

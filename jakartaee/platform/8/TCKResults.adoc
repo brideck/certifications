@@ -209,5 +209,300 @@ Stage Name: ejb30/assembly/metainfandlibdir
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
 
+Stage Name: ejb30/bb/async
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 312 tests.
+[javatest.batch] Number of Tests Passed      = 312
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/bb/localaccess
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 50 tests.
+[javatest.batch] Number of Tests Passed      = 50
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/bb/mdb/activationconfig/queue/selectorauto/annotated
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 3 tests.
+[javatest.batch] Number of Tests Passed      = 3
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/bb/mdb/activationconfig/queue/selectorauto/complement
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 3 tests.
+[javatest.batch] Number of Tests Passed      = 3
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/bb/mdb/activationconfig/queue/selectorauto/descriptor
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 3 tests.
+[javatest.batch] Number of Tests Passed      = 3
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/bb/mdb/activationconfig/queue/selectorauto/override
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 3 tests.
+[javatest.batch] Number of Tests Passed      = 3
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/bb/mdb/activationconfig/queue/selectordups/annotated
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 3 tests.
+[javatest.batch] Number of Tests Passed      = 3
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/bb/mdb/activationconfig/queue/selectordups/complement
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 3 tests.
+[javatest.batch] Number of Tests Passed      = 3
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/bb/mdb/activationconfig/queue/selectordups/descriptor
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 3 tests.
+[javatest.batch] Number of Tests Passed      = 3
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/bb/mdb/activationconfig/queue/selectordups/override
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 3 tests.
+[javatest.batch] Number of Tests Passed      = 3
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/bb/mdb/activationconfig/topic/selectordupsnondurable/annotated
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 3 tests.
+[javatest.batch] Number of Tests Passed      = 3
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/bb/mdb/activationconfig/topic/selectordupsnondurable/complement
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 3 tests.
+[javatest.batch] Number of Tests Passed      = 3
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/bb/mdb/activationconfig/topic/selectordupsnondurable/descriptor
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 3 tests.
+[javatest.batch] Number of Tests Passed      = 3
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/bb/mdb/activationconfig/topic/selectordupsnondurable/override
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 3 tests.
+[javatest.batch] Number of Tests Passed      = 3
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/bb/mdb/callback/listener/annotated
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 3 tests.
+[javatest.batch] Number of Tests Passed      = 3
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/bb/mdb/callback/listener/descriptor
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 3 tests.
+[javatest.batch] Number of Tests Passed      = 3
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/bb/mdb/callback/method/annotated
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 3 tests.
+[javatest.batch] Number of Tests Passed      = 3
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/bb/mdb/callback/method/descriptor
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 3 tests.
+[javatest.batch] Number of Tests Passed      = 3
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/bb/mdb/callback/method/ejbcreate
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 2 tests.
+[javatest.batch] Number of Tests Passed      = 2
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/bb/mdb/customlistener
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 1 tests.
+[javatest.batch] Number of Tests Passed      = 1
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/bb/mdb/dest/fullpath
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 1 tests.
+[javatest.batch] Number of Tests Passed      = 1
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/bb/mdb/dest/jarwar
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 2 tests.
+[javatest.batch] Number of Tests Passed      = 2
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/bb/mdb/dest/onejar
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 1 tests.
+[javatest.batch] Number of Tests Passed      = 1
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/bb/mdb/dest/optional
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 1 tests.
+[javatest.batch] Number of Tests Passed      = 1
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/bb/mdb/dest/topic/fullpath
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 1 tests.
+[javatest.batch] Number of Tests Passed      = 1
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/bb/mdb/dest/topic/jarwar
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 2 tests.
+[javatest.batch] Number of Tests Passed      = 2
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/bb/mdb/dest/topic/onejar
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 1 tests.
+[javatest.batch] Number of Tests Passed      = 1
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: ejb30/bb/mdb/dest/topic/twojars
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 1 tests.
+[javatest.batch] Number of Tests Passed      = 1
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/bb/mdb/dest/twojars
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 1 tests.
+[javatest.batch] Number of Tests Passed      = 1
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/bb/mdb/interceptor/listener/annotated
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 7 tests.
+[javatest.batch] Number of Tests Passed      = 7
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/bb/mdb/interceptor/listener/descriptor
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 7 tests.
+[javatest.batch] Number of Tests Passed      = 7
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/bb/mdb/interceptor/method/annotated
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 6 tests.
+[javatest.batch] Number of Tests Passed      = 6
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/bb/mdb/interceptor/method/descriptor
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 6 tests.
+[javatest.batch] Number of Tests Passed      = 6
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/bb/mdb/listenerintf/implementing/externalizable
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 1 tests.
+[javatest.batch] Number of Tests Passed      = 1
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/bb/mdb/listenerintf/implementing/serializable
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 1 tests.
+[javatest.batch] Number of Tests Passed      = 1
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/bb/session/stateful
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 350 tests.
+[javatest.batch] Number of Tests Passed      = 350
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/bb/session/stateless
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 397 tests.
+[javatest.batch] Number of Tests Passed      = 397
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
 ----
 

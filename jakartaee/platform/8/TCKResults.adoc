@@ -1145,6 +1145,12 @@ Stage Name: jaxrs/api/rs/bindingpriority
 [javatest.batch] ********************************************************************************
 
 Stage Name: jaxrs/api/rs/badrequestexception
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 12 tests.
+[javatest.batch] Number of Tests Passed      = 12
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
 
 Stage Name: jaxrs/api/rs/clienterrorexception
 [javatest.batch] ********************************************************************************

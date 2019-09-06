@@ -3179,5 +3179,141 @@ Stage Name: servlet/spec
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
 
+Stage Name: signaturetest
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 5 tests.
+[javatest.batch] Number of Tests Passed      = 3
+[javatest.batch] Number of Tests Failed      = 2
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: webservices12/deploy
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 4 tests.
+[javatest.batch] Number of Tests Passed      = 4
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: webservices12/ejb
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 40 tests.
+[javatest.batch] Number of Tests Passed      = 40
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: webservices12/narrow
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 3 tests.
+[javatest.batch] Number of Tests Passed      = 3
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: webservices12/sec/annotations/ejb/basicauth
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 4 tests.
+[javatest.batch] Number of Tests Passed      = 4
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: webservices12/sec/annotations/ejb/basicauthssl
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 4 tests.
+[javatest.batch] Number of Tests Passed      = 4
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: webservices12/sec/annotations/ejb/clientcert
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 3 tests.
+[javatest.batch] Number of Tests Passed      = 3
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: webservices12/sec/descriptors/ejb/basicSSL
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 12 tests.
+[javatest.batch] Number of Tests Passed      = 12
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: webservices12/sec/descriptors/ejb/certificate
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 1 tests.
+[javatest.batch] Number of Tests Passed      = 1
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: webservices12/sec/descriptors/servlet/basicSSL
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 12 tests.
+[javatest.batch] Number of Tests Passed      = 12
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: webservices12/sec/descriptors/servlet/certificate
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 1 tests.
+[javatest.batch] Number of Tests Passed      = 1
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: webservices12/servlet
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 57 tests.
+[javatest.batch] Number of Tests Passed      = 57
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: webservices12/specialcases
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 9 tests.
+[javatest.batch] Number of Tests Passed      = 9
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: webservices12/wsdlImport
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 92 tests.
+[javatest.batch] Number of Tests Passed      = 92
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: webservices13
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 53 tests.
+[javatest.batch] Number of Tests Passed      = 53
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: websocket
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 745 tests.
+[javatest.batch] Number of Tests Passed      = 745
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: xa
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 66 tests.
+[javatest.batch] Number of Tests Passed      = 66
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
 ----
 

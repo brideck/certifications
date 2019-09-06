@@ -40,10 +40,18 @@ Apache Derby, Linux, Ubuntu 16.04
 Test results:
 
 ----
-stage Name: ejb30/lite/appexception
+Stage Name: ejb30/lite/appexception
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 292 tests.
 [javatest.batch] Number of Tests Passed      = 292
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: ejb30/lite/async
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 300 tests.
+[javatest.batch] Number of Tests Passed      = 300
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
@@ -55,6 +63,43 @@ Stage Name: ejb30/lite/basic
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
+
+Stage Name: ejb30/lite/ejbcontext
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 40 tests.
+[javatest.batch] Number of Tests Passed      = 40
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: ejb30/lite/enventry
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 24 tests.
+[javatest.batch] Number of Tests Passed      = 24
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: ejb30/lite/interceptor
+
+Stage Name: ejb30/lite/lookup
+
+Stage Name: ejb30/lite/naming
+
+Stage Name: ejb30/lite/nointerface
+
+Stage Name: ejb30/lite/packaging
+
+Stage Name: ejb30/lite/singleton
+
+Stage Name: ejb30/lite/stateful
+
+Stage Name: ejb30/lite/tx
+
+Stage Name: ejb30/lite/view
+
+Stage Name: ejb30/lite/xmloverride
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 ----

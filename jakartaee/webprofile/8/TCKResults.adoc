@@ -40,5 +40,6 @@ Apache Derby, Linux, Ubuntu 16.04
 Test results:
 
 ----
-No test results yet...  Need to fill this in.
+ejb30 results
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 ----

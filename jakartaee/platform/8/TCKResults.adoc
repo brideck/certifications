@@ -939,5 +939,69 @@ Stage Name: integration
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
 
+Stage Name: interop/csiv2
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 22 tests.
+[javatest.batch] Number of Tests Passed      = 4
+[javatest.batch] Number of Tests Failed      = 18
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: interop/ejb
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 112 tests.
+[javatest.batch] Number of Tests Passed      = 112
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: interop/integration
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 6 tests.
+[javatest.batch] Number of Tests Passed      = 6
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: interop/security
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 82 tests.
+[javatest.batch] Number of Tests Passed      = 82
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: interop/tx
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 46 tests.
+[javatest.batch] Number of Tests Passed      = 46
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: j2eetools
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 97 tests.
+[javatest.batch] Number of Tests Passed      = 97
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jacc
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 40 tests.
+[javatest.batch] Number of Tests Passed      = 40
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jaspic
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 61 tests.
+[javatest.batch] Number of Tests Passed      = 61
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
 ----
 

@@ -2738,5 +2738,141 @@ Stage Name: jpa/jpa22
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
 
+Stage Name: jsf/api/javax_faces/application
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 255 tests.
+[javatest.batch] Number of Tests Passed      = 255
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jsf/api/javax_faces/component
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 4359 tests.
+[javatest.batch] Number of Tests Passed      = 4359
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jsf/api/javax_faces/context
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 120 tests.
+[javatest.batch] Number of Tests Passed      = 120
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jsf/api/javax_faces/convert
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 124 tests.
+[javatest.batch] Number of Tests Passed      = 124
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jsf/api/javax_faces/el
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 47 tests.
+[javatest.batch] Number of Tests Passed      = 47
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jsf/api/javax_faces/event
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 136 tests.
+[javatest.batch] Number of Tests Passed      = 136
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jsf/api/javax_faces/facesexception
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 5 tests.
+[javatest.batch] Number of Tests Passed      = 5
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jsf/api/javax_faces/factoryfinder
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 12 tests.
+[javatest.batch] Number of Tests Passed      = 12
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jsf/api/javax_faces/factoryfinderrelease
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 1 tests.
+[javatest.batch] Number of Tests Passed      = 1
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jsf/api/javax_faces/flow
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 8 tests.
+[javatest.batch] Number of Tests Passed      = 8
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jsf/api/javax_faces/lifecycle
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 16 tests.
+[javatest.batch] Number of Tests Passed      = 16
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jsf/api/javax_faces/model
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 111 tests.
+[javatest.batch] Number of Tests Passed      = 111
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jsf/api/javax_faces/render
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 16 tests.
+[javatest.batch] Number of Tests Passed      = 16
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jsf/api/javax_faces/validator
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 66 tests.
+[javatest.batch] Number of Tests Passed      = 66
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jsf/api/javax_faces/view
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 29 tests.
+[javatest.batch] Number of Tests Passed      = 29
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jsf/spec
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 221 tests.
+[javatest.batch] Number of Tests Passed      = 221
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jsf/spec/flows
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 9 tests.
+[javatest.batch] Number of Tests Passed      = 9
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
 ----
 

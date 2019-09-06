@@ -3034,6 +3034,12 @@ Stage Name: jsonp/api/jsonwriterfactorytests
 [javatest.batch] ********************************************************************************
  
 Stage Name: jsonp/api/jsonwritertests
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 56 tests.
+[javatest.batch] Number of Tests Passed      = 56
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
  
 Stage Name: jsonp/api/mergetests
 [javatest.batch] ********************************************************************************

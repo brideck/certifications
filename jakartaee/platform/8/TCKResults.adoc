@@ -3060,5 +3060,60 @@ Stage Name: jsonp/pluggability
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
 
+Stage Name: jsp
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 731 tests.
+[javatest.batch] Number of Tests Passed      = 731
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jstl
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 541 tests.
+[javatest.batch] Number of Tests Passed      = 541
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jta
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 195 tests.
+[javatest.batch] Number of Tests Passed      = 195
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage name: rmiiiop
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 129 tests.
+[javatest.batch] Number of Tests Passed      = 129
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: samples
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 13 tests.
+[javatest.batch] Number of Tests Passed      = 13
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: securityapi
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 84 tests.
+[javatest.batch] Number of Tests Passed      = 83
+[javatest.batch] Number of Tests Failed      = 1
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+Stage Name: securityapi/idstore/idstorepermission
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 1 tests.
+[javatest.batch] Number of Tests Passed      = 1
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
 ----
 

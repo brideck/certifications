@@ -39,9 +39,10 @@ Apache Derby, Linux, Ubuntu 16.04
 
 Test Results:
 
+----
 Stage Name: Test
 *************************************
 Test ran 999
 *************************************
-
+----
 

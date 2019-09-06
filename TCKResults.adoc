@@ -1,15 +1,13 @@
-:page-layout: certification 
+:page-layout: certification
 = TCK Results
 
-As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of Jakarta EE Dummy Test Spec.
+As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of Jakarta EE Dummy Spec.
 
-Testing.
-
-== Open Liberty 19.0.0.8 Dummy Test Spec Certification Summary
+== Open Liberty 19.0.0.x Dummy Test Certification Summary
 
 * Product Name, Version and download URL (if applicable):
 +
-https://openliberty.io/download[Open Liberty]
+https://openliberty.io/downloads[Open Liberty 19.0.0.x]
 
 * Specification Name, Version and download URL:
 +
@@ -21,7 +19,7 @@ https://download.eclipse.org/jakartaee/dummy-test/x.0/eclipse-dummy-test-tck-x.0
 
 * Public URL of TCK Results Summary:
 +
-link:TCK-Results.html[TCK results summary]
+link:TCKResults.html[TCK results summary]
 
 * Any Additional Specification Certification Requirements:
 +

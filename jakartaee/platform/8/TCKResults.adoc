@@ -31,7 +31,7 @@ https://download.eclipse.org/ee4j/cdi/cdi-tck-2.0.6-dist.zip[cdi-tck-2.0.6-dist.
 +
 Jakarta Bean Validation
 +
-https://download.eclipse.org/ee4j/cdi/cdi-tck-2.0.6-dist.zip[beanvalidation-tck-dist-2.0.5.tar], SHA-256:
+http://download.eclipse.org/ee4j/bean-validation/beanvalidation-tck-dist-2.0.5.tar.gz[beanvalidation-tck-dist-2.0.5.tar], SHA-256:
   `ff001fa8e5e85bfbfb1ba4162639ee34e6b1f74ba7b735fb2e59b9962a136f11`<br/>
   +
 Direct Injection

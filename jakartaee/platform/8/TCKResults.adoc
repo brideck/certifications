@@ -3115,5 +3115,69 @@ Stage Name: securityapi/idstore/idstorepermission
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
 
+Stage Name: servlet/api.1
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 846 tests.
+[javatest.batch] Number of Tests Passed      = 846
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: servlet/compat
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 2 tests.
+[javatest.batch] Number of Tests Passed      = 2
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: servlet/ee/platform
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 18 tests.
+[javatest.batch] Number of Tests Passed      = 18
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: servlet/ee/spec/crosscontext
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 2 tests.
+[javatest.batch] Number of Tests Passed      = 2
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: servlet/ee/spec/security/permissiondd
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 14 tests.
+[javatest.batch] Number of Tests Passed      = 14
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: servlet/ee/spec/security/runAs
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 2 tests.
+[javatest.batch] Number of Tests Passed      = 2
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: servlet/pluggability
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 633 tests.
+[javatest.batch] Number of Tests Passed      = 633
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: servlet/spec
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 208 tests.
+[javatest.batch] Number of Tests Passed      = 208
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
 ----
 

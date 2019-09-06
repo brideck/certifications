@@ -1947,5 +1947,277 @@ Stage Name: jms/core20/sessiontests
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
 
+Stage Name: jms/ee/ejb
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 17 tests.
+[javatest.batch] Number of Tests Passed      = 16
+[javatest.batch] Number of Tests Failed      = 1
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+Stage Name: jms/ee/ejb/sessionQtests
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 1 tests.
+[javatest.batch] Number of Tests Passed      = 1
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jms/ee/ejbweb
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 30 tests.
+[javatest.batch] Number of Tests Passed      = 30
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jms/ee/mdb/mdb_exceptQ
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 11 tests.
+[javatest.batch] Number of Tests Passed      = 11
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jms/ee/mdb/mdb_exceptT
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 11 tests.
+[javatest.batch] Number of Tests Passed      = 11
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jms/ee/mdb/mdb_msgHdrQ
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 13 tests.
+[javatest.batch] Number of Tests Passed      = 13
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jms/ee/mdb/mdb_msgHdrT
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 13 tests.
+[javatest.batch] Number of Tests Passed      = 13
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jms/ee/mdb/mdb_msgPropsQ
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 2 tests.
+[javatest.batch] Number of Tests Passed      = 2
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jms/ee/mdb/mdb_msgPropsT
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 2 tests.
+[javatest.batch] Number of Tests Passed      = 2
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jms/ee/mdb/mdb_msgTypesQ1
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 14 tests.
+[javatest.batch] Number of Tests Passed      = 14
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jms/ee/mdb/mdb_msgTypesQ2
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 14 tests.
+[javatest.batch] Number of Tests Passed      = 14
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jms/ee/mdb/mdb_msgTypesQ3
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 8 tests.
+[javatest.batch] Number of Tests Passed      = 8
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jms/ee/mdb/mdb_msgTypesT1
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 14 tests.
+[javatest.batch] Number of Tests Passed      = 14
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jms/ee/mdb/mdb_msgTypesT2
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 14 tests.
+[javatest.batch] Number of Tests Passed      = 14
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jms/ee/mdb/mdb_msgTypesT3
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 8 tests.
+[javatest.batch] Number of Tests Passed      = 8
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jms/ee/mdb/mdb_rec
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 10 tests.
+[javatest.batch] Number of Tests Passed      = 10
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jms/ee/mdb/mdb_sndQ
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 5 tests.
+[javatest.batch] Number of Tests Passed      = 5
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jms/ee/mdb/mdb_sndToQueue
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 5 tests.
+[javatest.batch] Number of Tests Passed      = 5
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jms/ee/mdb/mdb_sndToTopic
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 5 tests.
+[javatest.batch] Number of Tests Passed      = 5
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jms/ee/mdb/mdb_synchrec
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 1 tests.
+[javatest.batch] Number of Tests Passed      = 1
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jms/ee/mdb/xa
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 10 tests.
+[javatest.batch] Number of Tests Passed      = 10
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: jms/ee20/cditests/ejbweb
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 13 tests.
+[javatest.batch] Number of Tests Passed      = 13
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jms/ee20/cditests/mdb
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 2 tests.
+[javatest.batch] Number of Tests Passed      = 2
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jms/ee20/cditests/usecases
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 10 tests.
+[javatest.batch] Number of Tests Passed      = 10
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jms/ee20/ra/activationconfig/queue/selectorauto/annotated
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 3 tests.
+[javatest.batch] Number of Tests Passed      = 3
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jms/ee20/ra/activationconfig/queue/selectorauto/descriptor
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 3 tests.
+[javatest.batch] Number of Tests Passed      = 3
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jms/ee20/ra/activationconfig/queue/selectordups/annotated
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 3 tests.
+[javatest.batch] Number of Tests Passed      = 3
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jms/ee20/ra/activationconfig/queue/selectordups/descriptor
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 3 tests.
+[javatest.batch] Number of Tests Passed      = 3
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jms/ee20/ra/activationconfig/topic/noselnocidautodurable/annotated
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 1 tests.
+[javatest.batch] Number of Tests Passed      = 1
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jms/ee20/ra/activationconfig/topic/noselnocidautodurable/descriptor
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 1 tests.
+[javatest.batch] Number of Tests Passed      = 1
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jms/ee20/ra/activationconfig/topic/selectorautociddurable/annotated
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 3 tests.
+[javatest.batch] Number of Tests Passed      = 3
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jms/ee20/ra/activationconfig/topic/selectorautociddurable/descriptor
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 3 tests.
+[javatest.batch] Number of Tests Passed      = 3
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jms/ee20/ra/activationconfig/topic/selectordupsnondurable/annotated
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 3 tests.
+[javatest.batch] Number of Tests Passed      = 3
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jms/ee20/ra/activationconfig/topic/selectordupsnondurable/descriptor
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 3 tests.
+[javatest.batch] Number of Tests Passed      = 3
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+
 ----
 

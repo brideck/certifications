@@ -730,6 +730,12 @@ Stage Name: ejb30/misc/moduleName/appclientejb
 [javatest.batch] ********************************************************************************
  
 Stage Name: ejb30/misc/moduleName/conflict
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 1 tests.
+[javatest.batch] Number of Tests Passed      = 1
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
  
 Stage Name: ejb30/misc/moduleName/twojars
 [javatest.batch] ********************************************************************************
@@ -999,6 +1005,376 @@ Stage Name: jaspic
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 61 tests.
 [javatest.batch] Number of Tests Passed      = 61
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: jaxrs/api/client
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 223 tests.
+[javatest.batch] Number of Tests Passed      = 223
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jaxrs/api/rs/bindingpriority
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 2 tests.
+[javatest.batch] Number of Tests Passed      = 2
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: jaxrs/api/rs/badrequestexception
+
+Stage Name: jaxrs/api/rs/clienterrorexception
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 32 tests.
+[javatest.batch] Number of Tests Passed      = 32
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jaxrs/api/rs/core/abstractmultivaluedmap
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 32 tests.
+[javatest.batch] Number of Tests Passed      = 32
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jaxrs/api/rs/core/cachecontrol
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 14 tests.
+[javatest.batch] Number of Tests Passed      = 14
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jaxrs/api/rs/core/configurable
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 4 tests.
+[javatest.batch] Number of Tests Passed      = 4
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jaxrs/api/rs/core/configuration
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 17 tests.
+[javatest.batch] Number of Tests Passed      = 17
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jaxrs/api/rs/core/cookie
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 10 tests.
+[javatest.batch] Number of Tests Passed      = 10
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jaxrs/api/rs/core/entitytag
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 6 tests.
+[javatest.batch] Number of Tests Passed      = 6
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jaxrs/api/rs/core/form
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 4 tests.
+[javatest.batch] Number of Tests Passed      = 4
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jaxrs/api/rs/core/genericentity
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 11 tests.
+[javatest.batch] Number of Tests Passed      = 11
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jaxrs/api/rs/core/generictype
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 5 tests.
+[javatest.batch] Number of Tests Passed      = 5
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jaxrs/api/rs/core/link
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 32 tests.
+[javatest.batch] Number of Tests Passed      = 32
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jaxrs/api/rs/core/linkbuilder
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 29 tests.
+[javatest.batch] Number of Tests Passed      = 29
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jaxrs/api/rs/core/linkjaxbadapter
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 2 tests.
+[javatest.batch] Number of Tests Passed      = 2
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jaxrs/api/rs/core/linkjaxblink
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 3 tests.
+[javatest.batch] Number of Tests Passed      = 3
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jaxrs/api/rs/core/mediatype
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 20 tests.
+[javatest.batch] Number of Tests Passed      = 20
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jaxrs/api/rs/core/multivaluedhashmap
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 10 tests.
+[javatest.batch] Number of Tests Passed      = 10
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jaxrs/api/rs/core/multivaluedmap
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 17 tests.
+[javatest.batch] Number of Tests Passed      = 17
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jaxrs/api/rs/core/newcookie
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 31 tests.
+[javatest.batch] Number of Tests Passed      = 31
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jaxrs/api/rs/core/nocontentexception
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 4 tests.
+[javatest.batch] Number of Tests Passed      = 4
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jaxrs/api/rs/core/responsebuilder
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 15 tests.
+[javatest.batch] Number of Tests Passed      = 15
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jaxrs/api/rs/core/responseclient
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 85 tests.
+[javatest.batch] Number of Tests Passed      = 85
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jaxrs/api/rs/core/responsestatustype
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 4 tests.
+[javatest.batch] Number of Tests Passed      = 4
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jaxrs/api/rs/core/uribuilder
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 125 tests.
+[javatest.batch] Number of Tests Passed      = 125
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jaxrs/api/rs/core/variant
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 16 tests.
+[javatest.batch] Number of Tests Passed      = 16
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jaxrs/api/rs/core/variantlistbuilder
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 6 tests.
+[javatest.batch] Number of Tests Passed      = 6
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jaxrs/api/rs/ext
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 38 tests.
+[javatest.batch] Number of Tests Passed      = 38
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jaxrs/api/rs/forbiddenexception
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 12 tests.
+[javatest.batch] Number of Tests Passed      = 12
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jaxrs/api/rs/internalservererrorexception
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 12 tests.
+[javatest.batch] Number of Tests Passed      = 12
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jaxrs/api/rs/notacceptableexception
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 12 tests.
+[javatest.batch] Number of Tests Passed      = 12
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jaxrs/api/rs/notallowedexception
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 20 tests.
+[javatest.batch] Number of Tests Passed      = 20
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jaxrs/api/rs/notauthorizedexception
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 14 tests.
+[javatest.batch] Number of Tests Passed      = 14
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jaxrs/api/rs/notfoundexception
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 12 tests.
+[javatest.batch] Number of Tests Passed      = 12
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jaxrs/api/rs/notsupportedexception
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 12 tests.
+[javatest.batch] Number of Tests Passed      = 12
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jaxrs/api/rs/processingexception
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 11 tests.
+[javatest.batch] Number of Tests Passed      = 11
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jaxrs/api/rs/redirectexception
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 16 tests.
+[javatest.batch] Number of Tests Passed      = 16
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jaxrs/api/rs/runtimetype
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 2 tests.
+[javatest.batch] Number of Tests Passed      = 2
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jaxrs/api/rs/servererrorexception
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 32 tests.
+[javatest.batch] Number of Tests Passed      = 32
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jaxrs/api/rs/serviceunavailableexception
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 18 tests.
+[javatest.batch] Number of Tests Passed      = 18
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jaxrs/api/rs/webapplicationexceptiontest
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 14 tests.
+[javatest.batch] Number of Tests Passed      = 14
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jaxrs/ee
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 1174 tests.
+[javatest.batch] Number of Tests Passed      = 1174
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jaxrs/jaxrs21
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 184 tests.
+[javatest.batch] Number of Tests Passed      = 184
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: jaxrs/platform
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 124 tests.
+[javatest.batch] Number of Tests Passed      = 124
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: jaxrs/servlet3
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 6 tests.
+[javatest.batch] Number of Tests Passed      = 6
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jaxrs/spec
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 319 tests.
+[javatest.batch] Number of Tests Passed      = 319
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************

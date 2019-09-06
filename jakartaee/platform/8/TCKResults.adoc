@@ -3322,5 +3322,32 @@ Stage Name: xa
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
 
+
+Stage Name: Direct Injection TCK
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 50, Failures: 0, Errors: 0, Skipped: 0
+
+
+Stage Name: CDI TCK
+Tests run: 1800, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4,840.407 sec - in TestSuite
+
+Results :
+Tests run: 1800, Failures: 0, Errors: 0, Skipped: 0
+
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.586 sec - in TestSuite
+
+Results :
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
+
+
+Stage Name: BeanValidation TCK
+Tests run: 1043, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 864.982 sec - in TestSuite
+
+Results :
+
+Tests run: 1043, Failures: 0, Errors: 0, Skipped: 0
+
+
 ----
 

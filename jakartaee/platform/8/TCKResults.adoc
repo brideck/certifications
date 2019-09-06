@@ -40,9 +40,79 @@ Apache Derby, Linux, Ubuntu 16.04
 Test Results:
 
 ----
-Stage Name: Test
-*************************************
-Test ran 999
-*************************************
+
+Stage Name: appclient
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 36 tests.
+[javatest.batch] Number of Tests Passed      = 36
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: assembly
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 30 tests.
+[javatest.batch] Number of Tests Passed      = 30
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: compat12
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 6 tests.
+[javatest.batch] Number of Tests Passed      = 6
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: concurrency/api
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 144 tests.
+[javatest.batch] Number of Tests Passed      = 144
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: concurrency/spec/ContextService
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 11 tests.
+[javatest.batch] Number of Tests Passed      = 11
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: concurrency/spec/ManagedExecutorService
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 15 tests.
+[javatest.batch] Number of Tests Passed      = 15
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: concurrency/spec/ManagedThreadFactory
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 7 tests.
+[javatest.batch] Number of Tests Passed      = 7
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: concurrency/spec/ManagedScheduledExecutorService
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 28 tests.
+[javatest.batch] Number of Tests Passed      = 28
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: connector
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 495 tests.
+[javatest.batch] Number of Tests Passed      = 495
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+
 ----
 

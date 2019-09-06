@@ -400,6 +400,14 @@ Stage Name: ejb30/bb/mdb/dest/optional
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
+
+Stage Name: ejb30/bb/mdb/dest/optional2
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 1 tests.
+[javatest.batch] Number of Tests Passed      = 1
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
  
 Stage Name: ejb30/bb/mdb/dest/topic/fullpath
 [javatest.batch] ********************************************************************************

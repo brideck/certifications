@@ -132,6 +132,77 @@ Stage Name: ejb30/lite/xmloverride
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Stage Name: jaxrs
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 3 tests.
+[javatest.batch] Number of Tests Passed      = 3
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+Stage Name: jaxrs
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 976 tests.
+[javatest.batch] Number of Tests Passed      = 973
+[javatest.batch] Number of Tests Failed      = 3
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+Stage Name: jdbc
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 2462 tests.
+[javatest.batch] Number of Tests Passed      = 2462
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+Stage Name: jpa
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 1 tests.
+[javatest.batch] Number of Tests Passed      = 1
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+Stage Name: jpa
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 1896 tests.
+[javatest.batch] Number of Tests Passed      = 1895
+[javatest.batch] Number of Tests Failed      = 1
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+Stage Name: jsf
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 5526 tests.
+[javatest.batch] Number of Tests Passed      = 5526
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+Stage Name: jsonb
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 532 tests.
+[javatest.batch] Number of Tests Passed      = 532
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+Stage Name: jsonp
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 1 tests.
+[javatest.batch] Number of Tests Passed      = 1
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+Stage Name: jsonp
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 2 tests.
+[javatest.batch] Number of Tests Passed      = 1
+[javatest.batch] Number of Tests Failed      = 1
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+Stage Name: jsonp
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 372 tests.
+[javatest.batch] Number of Tests Passed      = 370
+[javatest.batch] Number of Tests Failed      = 2
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
 
 Stage Name: jsp
 [javatest.batch] ********************************************************************************

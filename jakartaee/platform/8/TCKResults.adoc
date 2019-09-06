@@ -2874,5 +2874,191 @@ Stage Name: jsf/spec/flows
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
 
+Stage Name: jsonb
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 1062 tests.
+[javatest.batch] Number of Tests Passed      = 1062
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jsonp/api/collectortests.1
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 4 tests.
+[javatest.batch] Number of Tests Passed      = 4
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jsonp/api/exceptiontests
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 24 tests.
+[javatest.batch] Number of Tests Passed      = 24
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jsonp/api/jsonarraytests
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 44 tests.
+[javatest.batch] Number of Tests Passed      = 44
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jsonp/api/jsonbuilderfactorytests
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 12 tests.
+[javatest.batch] Number of Tests Passed      = 12
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jsonp/api/jsoncoding
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 4 tests.
+[javatest.batch] Number of Tests Passed      = 4
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jsonp/api/jsongeneratorfactorytests
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 16 tests.
+[javatest.batch] Number of Tests Passed      = 16
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jsonp/api/jsongeneratortests
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 76 tests.
+[javatest.batch] Number of Tests Passed      = 76
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jsonp/api/jsonnumbertests
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 12 tests.
+[javatest.batch] Number of Tests Passed      = 12
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jsonp/api/jsonobjecttests
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 32 tests.
+[javatest.batch] Number of Tests Passed      = 32
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jsonp/api/jsonparsereventtests
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 8 tests.
+[javatest.batch] Number of Tests Passed      = 8
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jsonp/api/jsonparserfactorytests
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 28 tests.
+[javatest.batch] Number of Tests Passed      = 28
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jsonp/api/jsonparsertests
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 88 tests.
+[javatest.batch] Number of Tests Passed      = 88
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jsonp/api/jsonreaderfactorytests
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 16 tests.
+[javatest.batch] Number of Tests Passed      = 16
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jsonp/api/jsonreadertests
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 116 tests.
+[javatest.batch] Number of Tests Passed      = 116
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jsonp/api/jsonstreamingtests
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 16 tests.
+[javatest.batch] Number of Tests Passed      = 16
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jsonp/api/jsonstringtests
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 12 tests.
+[javatest.batch] Number of Tests Passed      = 12
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jsonp/api/jsonvaluetests
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 24 tests.
+[javatest.batch] Number of Tests Passed      = 24
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jsonp/api/jsonwriterfactorytests
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 16 tests.
+[javatest.batch] Number of Tests Passed      = 16
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jsonp/api/jsonwritertests
+ 
+Stage Name: jsonp/api/mergetests
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 20 tests.
+[javatest.batch] Number of Tests Passed      = 20
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jsonp/api/patchtests
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 32 tests.
+[javatest.batch] Number of Tests Passed      = 32
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jsonp/api/pointertests
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 16 tests.
+[javatest.batch] Number of Tests Passed      = 16
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jsonp/pluggability
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 72 tests.
+[javatest.batch] Number of Tests Passed      = 72
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
 ----
 

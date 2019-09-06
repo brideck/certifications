@@ -209,7 +209,6 @@ Stage Name: jsonp
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
 
-
 Stage Name: jsp
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 721 tests.

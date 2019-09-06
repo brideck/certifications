@@ -2218,6 +2218,525 @@ Stage Name: jms/ee20/ra/activationconfig/topic/selectordupsnondurable/descriptor
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
 
+Stage Name: jpa/core/annotations/access
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 208 tests.
+[javatest.batch] Number of Tests Passed      = 208
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/annotations/assocoverride
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 6 tests.
+[javatest.batch] Number of Tests Passed      = 6
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/annotations/basic
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 66 tests.
+[javatest.batch] Number of Tests Passed      = 66
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/annotations/collectiontable
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 6 tests.
+[javatest.batch] Number of Tests Passed      = 6
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/annotations/convert
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 56 tests.
+[javatest.batch] Number of Tests Passed      = 56
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/annotations/discriminatorValue
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 12 tests.
+[javatest.batch] Number of Tests Passed      = 12
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/annotations/elementcollection
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 18 tests.
+[javatest.batch] Number of Tests Passed      = 18
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/annotations/embeddable
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 6 tests.
+[javatest.batch] Number of Tests Passed      = 6
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/annotations/embeddableMapValue
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 6 tests.
+[javatest.batch] Number of Tests Passed      = 6
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/annotations/entity
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 12 tests.
+[javatest.batch] Number of Tests Passed      = 12
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/annotations/id
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 84 tests.
+[javatest.batch] Number of Tests Passed      = 84
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/annotations/lob
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 6 tests.
+[javatest.batch] Number of Tests Passed      = 6
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/annotations/mapkey
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 36 tests.
+[javatest.batch] Number of Tests Passed      = 36
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/annotations/mapkeyclass
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 6 tests.
+[javatest.batch] Number of Tests Passed      = 6
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/annotations/mapkeycolumn
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 32 tests.
+[javatest.batch] Number of Tests Passed      = 32
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/annotations/mapkeyenumerated
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 22 tests.
+[javatest.batch] Number of Tests Passed      = 22
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/annotations/mapkeyjoincolumn
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 6 tests.
+[javatest.batch] Number of Tests Passed      = 6
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/annotations/mapkeytemporal
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 16 tests.
+[javatest.batch] Number of Tests Passed      = 16
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/annotations/mapsid
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 6 tests.
+[javatest.batch] Number of Tests Passed      = 6
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/annotations/nativequery
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 76 tests.
+[javatest.batch] Number of Tests Passed      = 76
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/annotations/onexmanyuni
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 6 tests.
+[javatest.batch] Number of Tests Passed      = 6
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/annotations/orderby
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 48 tests.
+[javatest.batch] Number of Tests Passed      = 48
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/annotations/ordercolumn
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 18 tests.
+[javatest.batch] Number of Tests Passed      = 18
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/annotations/tableGenerator
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 24 tests.
+[javatest.batch] Number of Tests Passed      = 24
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/annotations/temporal
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 36 tests.
+[javatest.batch] Number of Tests Passed      = 36
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/annotations/version
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 84 tests.
+[javatest.batch] Number of Tests Passed      = 84
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/basic
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 12 tests.
+[javatest.batch] Number of Tests Passed      = 12
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/cache
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 20 tests.
+[javatest.batch] Number of Tests Passed      = 20
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/callback
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 396 tests.
+[javatest.batch] Number of Tests Passed      = 396
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/criteriaapi/CriteriaBuilder
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 930 tests.
+[javatest.batch] Number of Tests Passed      = 930
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/criteriaapi/CriteriaDelete
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 42 tests.
+[javatest.batch] Number of Tests Passed      = 42
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/criteriaapi/CriteriaQuery
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 228 tests.
+[javatest.batch] Number of Tests Passed      = 228
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/criteriaapi/CriteriaUpdate
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 60 tests.
+[javatest.batch] Number of Tests Passed      = 60
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/criteriaapi/From
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 174 tests.
+[javatest.batch] Number of Tests Passed      = 174
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/criteriaapi/Join
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 210 tests.
+[javatest.batch] Number of Tests Passed      = 210
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: jpa/core/criteriaapi/metamodelquery
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 906 tests.
+[javatest.batch] Number of Tests Passed      = 906
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/criteriaapi/misc
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 204 tests.
+[javatest.batch] Number of Tests Passed      = 204
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/criteriaapi/parameter
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 48 tests.
+[javatest.batch] Number of Tests Passed      = 48
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: jpa/core/criteriaapi/Root
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 156 tests.
+[javatest.batch] Number of Tests Passed      = 156
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/criteriaapi/strquery
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 774 tests.
+[javatest.batch] Number of Tests Passed      = 774
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/derivedid
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 72 tests.
+[javatest.batch] Number of Tests Passed      = 72
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: jpa/core/EntityGraph
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 78 tests.
+[javatest.batch] Number of Tests Passed      = 78
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/entityManager
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 193 tests.
+[javatest.batch] Number of Tests Passed      = 193
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/entityManager2
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 132 tests.
+[javatest.batch] Number of Tests Passed      = 132
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/entityManagerFactory
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 36 tests.
+[javatest.batch] Number of Tests Passed      = 36
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/entityManagerFactoryCloseExceptions.1
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 6 tests.
+[javatest.batch] Number of Tests Passed      = 6
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/entitytest
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 1000 tests.
+[javatest.batch] Number of Tests Passed      = 1000
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/entitytest/detach/oneXone
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 4 tests.
+[javatest.batch] Number of Tests Passed      = 4
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: jpa/core/entityTransaction
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 20 tests.
+[javatest.batch] Number of Tests Passed      = 20
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/enums
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 317 tests.
+[javatest.batch] Number of Tests Passed      = 317
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/exceptions
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 34 tests.
+[javatest.batch] Number of Tests Passed      = 34
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/inheritance
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 60 tests.
+[javatest.batch] Number of Tests Passed      = 60
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/lock
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 34 tests.
+[javatest.batch] Number of Tests Passed      = 34
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/metamodelapi
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 1554 tests.
+[javatest.batch] Number of Tests Passed      = 1554
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/nestedembedding
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 18 tests.
+[javatest.batch] Number of Tests Passed      = 18
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/override.1
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 156 tests.
+[javatest.batch] Number of Tests Passed      = 156
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/persistenceUtil
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 6 tests.
+[javatest.batch] Number of Tests Passed      = 6
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/persistenceUtilUtil
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 18 tests.
+[javatest.batch] Number of Tests Passed      = 18
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/query
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 1220 tests.
+[javatest.batch] Number of Tests Passed      = 1220
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/relationship
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 198 tests.
+[javatest.batch] Number of Tests Passed      = 198
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: jpa/core/StoredProcedureQuery
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 226 tests.
+[javatest.batch] Number of Tests Passed      = 226
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/types
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 300 tests.
+[javatest.batch] Number of Tests Passed      = 300
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/core/versioning
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 6 tests.
+[javatest.batch] Number of Tests Passed      = 6
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jpa/ee
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 181 tests.
+[javatest.batch] Number of Tests Passed      = 181
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: jpa/jpa22
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 100 tests.
+[javatest.batch] Number of Tests Passed      = 100
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
 
 ----
 

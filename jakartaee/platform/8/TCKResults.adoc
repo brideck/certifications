@@ -39,7 +39,7 @@ Apache Derby, Linux, Ubuntu 16.04
 
 Test results:
 
- 
+
 Stage Name: appclient
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 36 tests.

@@ -779,5 +779,93 @@ Stage Name: ejb30/misc/xmloverride/ejbref
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
 
+Stage Name: ejb30/sec/permsxml
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 12 tests.
+[javatest.batch] Number of Tests Passed      = 12
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/sec/stateful/lsecp
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 8 tests.
+[javatest.batch] Number of Tests Passed      = 8
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/sec/stateful/lsecr
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 8 tests.
+[javatest.batch] Number of Tests Passed      = 8
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/sec/stateful/sec
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 8 tests.
+[javatest.batch] Number of Tests Passed      = 8
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/sec/stateful/secpropagation
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 8 tests.
+[javatest.batch] Number of Tests Passed      = 8
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/sec/stateful/secrunaspropagation
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 11 tests.
+[javatest.batch] Number of Tests Passed      = 11
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/sec/stateless/lsecp
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 8 tests.
+[javatest.batch] Number of Tests Passed      = 8
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/sec/stateless/lsecr
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 8 tests.
+[javatest.batch] Number of Tests Passed      = 8
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/sec/stateless/sec
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 8 tests.
+[javatest.batch] Number of Tests Passed      = 8
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/sec/stateless/secpropagation
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 8 tests.
+[javatest.batch] Number of Tests Passed      = 8
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/sec/stateless/secrunaspropagation
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 12 tests.
+[javatest.batch] Number of Tests Passed      = 12
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
 ----
 

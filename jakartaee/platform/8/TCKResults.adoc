@@ -1120,6 +1120,14 @@ Stage Name: jaspic
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
 
+Stage Name: javamail
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 112 tests.
+[javatest.batch] Number of Tests Passed      = 112
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
 Stage Name: jaxrs/api/client
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 223 tests.

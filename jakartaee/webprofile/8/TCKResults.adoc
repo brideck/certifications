@@ -121,6 +121,12 @@ Stage Name: ejb30/lite/packaging
 [javatest.batch] ********************************************************************************
 
 Stage Name: ejb30/lite/singleton
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 184 tests.
+[javatest.batch] Number of Tests Passed      = 184
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
 
 Stage Name: ejb30/lite/stateful
 

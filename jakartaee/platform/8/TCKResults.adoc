@@ -504,5 +504,134 @@ Stage Name: ejb30/bb/session/stateless
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
+
+Stage Name: ejb30/lite/appexception
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 292 tests.
+[javatest.batch] Number of Tests Passed      = 292
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/lite/async
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 300 tests.
+[javatest.batch] Number of Tests Passed      = 300
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/lite/basic
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 84 tests.
+[javatest.batch] Number of Tests Passed      = 84
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/lite/ejbcontext
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 40 tests.
+[javatest.batch] Number of Tests Passed      = 40
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/lite/enventry
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 24 tests.
+[javatest.batch] Number of Tests Passed      = 24
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/lite/interceptor
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 140 tests.
+[javatest.batch] Number of Tests Passed      = 140
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/lite/lookup
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 24 tests.
+[javatest.batch] Number of Tests Passed      = 24
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/lite/naming
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 44 tests.
+[javatest.batch] Number of Tests Passed      = 44
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/lite/nointerface
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 48 tests.
+[javatest.batch] Number of Tests Passed      = 48
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/lite/packaging
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 203 tests.
+[javatest.batch] Number of Tests Passed      = 203
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: ejb30/lite/singleton
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 184 tests.
+[javatest.batch] Number of Tests Passed      = 184
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/lite/stateful/concurrency
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 68 tests.
+[javatest.batch] Number of Tests Passed      = 68
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/lite/stateful/timeout
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 22 tests.
+[javatest.batch] Number of Tests Passed      = 22
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/lite/tx
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 300 tests.
+[javatest.batch] Number of Tests Passed      = 300
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/lite/view
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 76 tests.
+[javatest.batch] Number of Tests Passed      = 76
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/lite/xmloverride
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 24 tests.
+[javatest.batch] Number of Tests Passed      = 24
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
 ----
 

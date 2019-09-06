@@ -1379,5 +1379,101 @@ Stage Name: jaxrs/spec
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
 
+Stage Name: jbatch
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 322 tests.
+[javatest.batch] Number of Tests Passed      = 322
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jdbc/ee/batchUpdate
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 68 tests.
+[javatest.batch] Number of Tests Passed      = 68
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jdbc/ee/callStmt
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 1592 tests.
+[javatest.batch] Number of Tests Passed      = 1592
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jdbc/ee/connection
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 36 tests.
+[javatest.batch] Number of Tests Passed      = 36
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jdbc/ee/dateTime
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 152 tests.
+[javatest.batch] Number of Tests Passed      = 152
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jdbc/ee/dbMeta
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 940 tests.
+[javatest.batch] Number of Tests Passed      = 940
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jdbc/ee/escapeSyntax
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 324 tests.
+[javatest.batch] Number of Tests Passed      = 324
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jdbc/ee/exception
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 56 tests.
+[javatest.batch] Number of Tests Passed      = 56
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jdbc/ee/prepStmt
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 1084 tests.
+[javatest.batch] Number of Tests Passed      = 1084
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jdbc/ee/resultSet
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 456 tests.
+[javatest.batch] Number of Tests Passed      = 456
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jdbc/ee/rsMeta
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 84 tests.
+[javatest.batch] Number of Tests Passed      = 84
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: jdbc/ee/stmt
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 132 tests.
+[javatest.batch] Number of Tests Passed      = 132
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
 ----
 

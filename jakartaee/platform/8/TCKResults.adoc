@@ -867,5 +867,62 @@ Stage Name: ejb30/sec/stateless/secrunaspropagation
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
 
+Stage Name: ejb30/timer
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 178 tests.
+[javatest.batch] Number of Tests Passed      = 178
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: ejb30/tx
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 81 tests.
+[javatest.batch] Number of Tests Passed      = 81
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/webservice/clientview
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 1 tests.
+[javatest.batch] Number of Tests Passed      = 1
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/webservice/interceptor
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 1 tests.
+[javatest.batch] Number of Tests Passed      = 1
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb30/webservice/wscontext
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 1 tests.
+[javatest.batch] Number of Tests Passed      = 1
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: ejb30/zombie
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 1 tests.
+[javatest.batch] Number of Tests Passed      = 1
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+ 
+Stage Name: ejb32
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 704 tests.
+[javatest.batch] Number of Tests Passed      = 704
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+
 ----
 

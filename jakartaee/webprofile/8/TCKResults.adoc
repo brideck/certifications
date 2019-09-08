@@ -131,13 +131,74 @@ Stage Name: ejb30/lite/singleton
 Stage Name: ejb30/lite/stateful
 
 Stage Name: ejb30/lite/tx
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 300 tests.
+[javatest.batch] Number of Tests Passed      = 300
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
 
-Stage Name: ejb30/lite/view
+Stage Name: ejb30/lite/view 
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 76 tests.
+[javatest.batch] Number of Tests Passed      = 76
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
 
-Stage Name: ejb30/lite/xmloverride
+Stage Name: ejb30/lite/xmloverride 
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 24 tests.
+[javatest.batch] Number of Tests Passed      = 24
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
 
+Stage Name: ejb32
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 456 tests.
+[javatest.batch] Number of Tests Passed      = 456
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Stage Name: el
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 667 tests.
+[javatest.batch] Number of Tests Passed      = 664
+[javatest.batch] Number of Tests Failed      = 3
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+Stage Name: el
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 3 tests.
+[javatest.batch] Number of Tests Passed      = 3
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: jaspic
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 61 tests.
+[javatest.batch] Number of Tests Passed      = 61
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: javamail
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 56 tests.
+[javatest.batch] Number of Tests Passed      = 54
+[javatest.batch] Number of Tests Failed      = 2
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+Stage Name: javamail
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 2 tests.
+[javatest.batch] Number of Tests Passed      = 2
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
 
 Stage Name: jaxrs
 [javatest.batch] ********************************************************************************
@@ -243,6 +304,22 @@ Stage Name: samples
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 5 tests.
 [javatest.batch] Number of Tests Passed      = 5
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: securityapi
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 84 tests.
+[javatest.batch] Number of Tests Passed      = 83
+[javatest.batch] Number of Tests Failed      = 1
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: securityapi/idstore/idstorepermission
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 1 tests.
+[javatest.batch] Number of Tests Passed      = 1
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************

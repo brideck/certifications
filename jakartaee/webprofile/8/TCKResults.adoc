@@ -363,7 +363,7 @@ Stage Name: websocket
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
 
-tage Name: Direct Injection TCK
+Stage Name: Direct Injection TCK
 [INFO] Results:
 [INFO]
 [INFO] Tests run: 50, Failures: 0, Errors: 0, Skipped: 0

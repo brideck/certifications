@@ -1,0 +1,83 @@
+:page-layout: certification
+= TCK Results
+
+As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of Jakarta Annotations 1.3.
+
+== Open Liberty 21.0.0.9 - Jakarta Annotations 1.3 Certification Summary
+
+* Product Name, Version and download URL (if applicable):
++
+https://repo1.maven.org/maven2/io/openliberty/openliberty-javaee8/21.0.0.9/openliberty-javaee8-21.0.0.9.zip[Open Liberty 21.0.0.9]
+
+* Specification Name, Version and download URL:
++
+https://jakarta.ee/specifications/annotations/1.3/annotations-spec-1.3.html[Jakarta Annotations 1.3]
+
+* Public URL of TCK Results Summary:
++
+link:TCKResults.html[TCK results summary]
+
+* Java runtime used to run the implementation:
++
+Java 8
+
+* Summary of the information for the certification environment, operating system, cloud, ...:
++
+Ubuntu 18.04
+
+Java 8 Test results:
+
+[source,xml]
+----
+[javatest.batch] ******************************************************
+[javatest.batch] All package signatures passed.
+[javatest.batch] 	Passed classes listed below: 
+[javatest.batch] 		javax.annotation.Generated(static mode)
+[javatest.batch] 		javax.annotation.Generated(reflection mode)
+[javatest.batch] 		javax.annotation.ManagedBean(static mode)
+[javatest.batch] 		javax.annotation.ManagedBean(reflection mode)
+[javatest.batch] 		javax.annotation.PostConstruct(static mode)
+[javatest.batch] 		javax.annotation.PostConstruct(reflection mode)
+[javatest.batch] 		javax.annotation.Priority(static mode)
+[javatest.batch] 		javax.annotation.Priority(reflection mode)
+[javatest.batch] 		javax.annotation.PreDestroy(static mode)
+[javatest.batch] 		javax.annotation.PreDestroy(reflection mode)
+[javatest.batch] 		javax.annotation.Resource(static mode)
+[javatest.batch] 		javax.annotation.Resource(reflection mode)
+[javatest.batch] 		javax.annotation.Resource$AuthenticationType(static mode)
+[javatest.batch] 		javax.annotation.Resource$AuthenticationType(reflection mode)
+[javatest.batch] 		javax.annotation.Resources(static mode)
+[javatest.batch] 		javax.annotation.Resources(reflection mode)
+[javatest.batch] 		javax.annotation.security.DeclareRoles(static mode)
+[javatest.batch] 		javax.annotation.security.DeclareRoles(reflection mode)
+[javatest.batch] 		javax.annotation.security.DenyAll(static mode)
+[javatest.batch] 		javax.annotation.security.DenyAll(reflection mode)
+[javatest.batch] 		javax.annotation.security.PermitAll(static mode)
+[javatest.batch] 		javax.annotation.security.PermitAll(reflection mode)
+[javatest.batch] 		javax.annotation.security.RolesAllowed(static mode)
+[javatest.batch] 		javax.annotation.security.RolesAllowed(reflection mode)
+[javatest.batch] 		javax.annotation.security.RunAs(static mode)
+[javatest.batch] 		javax.annotation.security.RunAs(reflection mode)
+[javatest.batch] 		javax.annotation.sql.DataSourceDefinition(static mode)
+[javatest.batch] 		javax.annotation.sql.DataSourceDefinition(reflection mode)
+[javatest.batch] 		javax.annotation.sql.DataSourceDefinitions(static mode)
+[javatest.batch] 		javax.annotation.sql.DataSourceDefinitions(reflection mode)
+[javatest.batch] 	******************************************************
+[javatest.batch] ******************************************************
+[javatest.batch] 
+[javatest.batch] 08-31-2021 07:12:44:  cleanup
+[javatest.batch] STATUS:Passed.
+[javatest.batch] Passed.
+[javatest.batch] ********************************************************************************
+[javatest.batch] Finished Test:  PASSED........com/sun/ts/tests/signaturetest/caj/CAJSigTest.java#signatureTest
+[javatest.batch] ********************************************************************************
+[javatest.batch] Number of tests completed:  1 (1 passed, 0 failed, 0 with errors)
+[javatest.batch] Number of tests remaining:  0
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 1 tests.
+[javatest.batch] Number of Tests Passed      = 1
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+[javatest.batch] PASSED........com/sun/ts/tests/signaturetest/caj/CAJSigTest.java#signatureTest
+----

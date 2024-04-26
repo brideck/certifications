@@ -1,0 +1,433 @@
+:page-layout: certification 
+= TCK Results
+
+As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of Jakarta EE Concurrency.
+
+== Open Liberty 24.0.0.6-beta - Jakarta EE Concurrency Certification Summary (Java 17)
+
+* Product Name, Version and download URL (if applicable):
++
+https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/tck/2024-04-23_2000/openliberty-24.0.0.6-beta-cl240520240423-2000.zip[Open Liberty 24.0.0.6-beta]
+
+* Specification Name, Version and download URL:
++
+https://jakarta.ee/specifications/concurrency/3.1[Jakarta EE Concurrency 3.1]
+
+* TCK Version, digital SHA-256 fingerprint and download URL:
++
+https://download.eclipse.org/ee4j/cu/jakartaee11/staged/eftl/concurrency-tck-3.1.0.zip[Jakarta EE Concurrency 3.1 TCK], https://download.eclipse.org/ee4j/cu/jakartaee11/staged/eftl/concurrency-tck-3.1.0.info[SHA-256]: `7b79bba4167530eb899fecb225e597346c3957f37b3b05bd825d7ab1d58512bd`
+
+* Public URL of TCK Results Summary:
++
+link:24.0.0.6-beta-Java17-TCKResults.html[TCK results summary]
+
+* Java runtime used to run the implementation:
++
+----
+java version "17.0.4.1" 2022-08-12
+IBM Semeru Runtime Certified Edition 17.0.4.1 (build 17.0.4.1+1)
+Eclipse OpenJ9 VM 17.0.4.1 (build openj9-0.33.1, JRE 17 Linux amd64-64-Bit Compressed References 20220812_206 (JIT enabled, AOT enabled)
+OpenJ9   - 1d9d16830
+OMR      - b58aa2708
+JCL      - df9b7169bff based on jdk-17.0.4.1+1)
+----
+
+* Summary of the information for the certification environment, operating system, cloud, ...:
++
+Ubuntu (5.4.0-176-generic)
+
+Test results:
+
+----
+[WARNING] Tests run: 295, Failures: 0, Errors: 0, Skipped: 27
+----
+
+[source,xml]
+----
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" id="0" name="AbortedExceptionTests" package="ee.jakarta.tck.concurrent.api.AbortedException" skipped="0" tests="4" time="49.095" version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd">
+      <testcase classname="ee.jakarta.tck.concurrent.api.AbortedException.AbortedExceptionTests" name="abortedExceptionNoArgTest" time="2.412">
+      <testcase classname="ee.jakarta.tck.concurrent.api.AbortedException.AbortedExceptionTests" name="abortedExceptionThrowableTest" time="0.126">
+      <testcase classname="ee.jakarta.tck.concurrent.api.AbortedException.AbortedExceptionTests" name="abortedExceptionStringTest" time="0.095">
+      <testcase classname="ee.jakarta.tck.concurrent.api.AbortedException.AbortedExceptionTests" name="abortedExceptionStringThrowableTest" time="0.132">
+  </testsuite>
+  <testsuite errors="0" failures="0" id="1" name="ContextServiceTests" package="ee.jakarta.tck.concurrent.api.ContextService" skipped="0" tests="14" time="14.31" version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd">
+      <testcase classname="ee.jakarta.tck.concurrent.api.ContextService.ContextServiceTests" name="contextServiceWithMultiIntfsAndPropertiesAndIntfNoImplemented" time="1.008">
+      <testcase classname="ee.jakarta.tck.concurrent.api.ContextService.ContextServiceTests" name="contextServiceWithMultiIntfs" time="0.15">
+      <testcase classname="ee.jakarta.tck.concurrent.api.ContextService.ContextServiceTests" name="contextServiceWithIntf" time="0.16">
+      <testcase classname="ee.jakarta.tck.concurrent.api.ContextService.ContextServiceTests" name="getExecutionPropertiesNoProxy" time="0.208">
+      <testcase classname="ee.jakarta.tck.concurrent.api.ContextService.ContextServiceTests" name="contextServiceWithIntfAndPropertiesAndIntfNoImplemented" time="0.174">
+      <testcase classname="ee.jakarta.tck.concurrent.api.ContextService.ContextServiceTests" name="contextServiceWithMultiIntfsAndProperties" time="0.136">
+      <testcase classname="ee.jakarta.tck.concurrent.api.ContextService.ContextServiceTests" name="contextServiceWithMultiIntfsAndIntfNoImplemented" time="0.149">
+      <testcase classname="ee.jakarta.tck.concurrent.api.ContextService.ContextServiceTests" name="contextServiceWithIntfsAndPropertiesAndInstanceIsNull" time="0.141">
+      <testcase classname="ee.jakarta.tck.concurrent.api.ContextService.ContextServiceTests" name="contextServiceWithIntfAndIntfNoImplemented" time="0.162">
+      <testcase classname="ee.jakarta.tck.concurrent.api.ContextService.ContextServiceTests" name="contextServiceWithIntfAndInstanceIsNull" time="0.149">
+      <testcase classname="ee.jakarta.tck.concurrent.api.ContextService.ContextServiceTests" name="contextServiceWithMultiIntfsAndInstanceIsNull" time="0.145">
+      <testcase classname="ee.jakarta.tck.concurrent.api.ContextService.ContextServiceTests" name="contextServiceWithIntfAndProperties" time="0.131">
+      <testcase classname="ee.jakarta.tck.concurrent.api.ContextService.ContextServiceTests" name="contextServiceWithMultiIntfsAndPropertiesAndInstanceIsNull" time="0.101">
+      <testcase classname="ee.jakarta.tck.concurrent.api.ContextService.ContextServiceTests" name="getExecutionProperties" time="0.114">
+  </testsuite>
+  <testsuite errors="0" failures="0" id="2" name="LastExecutionTests" package="ee.jakarta.tck.concurrent.api.LastExecution" skipped="0" tests="4" time="20.944" version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd">
+      <testcase classname="ee.jakarta.tck.concurrent.api.LastExecution.LastExecutionTests" name="lastExecutionGetIdentityNameTest" time="2.068">
+      <testcase classname="ee.jakarta.tck.concurrent.api.LastExecution.LastExecutionTests" name="lastExecutionGetResultCallableTest" time="2.082">
+      <testcase classname="ee.jakarta.tck.concurrent.api.LastExecution.LastExecutionTests" name="lastExecutionGetResultRunnableTest" time="2.091">
+      <testcase classname="ee.jakarta.tck.concurrent.api.LastExecution.LastExecutionTests" name="lastExecutionGetRunningTimeTest" time="4.074">
+  </testsuite>
+  <testsuite errors="0" failures="0" id="3" name="ManagedExecutorsTests" package="ee.jakarta.tck.concurrent.api.ManagedExecutors" skipped="0" tests="10" time="9.361" version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd">
+      <testcase classname="ee.jakarta.tck.concurrent.api.ManagedExecutors.ManagedExecutorsTests" name="manageRunnableTaskWithNullArg" time="1.215">
+      <testcase classname="ee.jakarta.tck.concurrent.api.ManagedExecutors.ManagedExecutorsTests" name="isCurrentThreadShutdownManageableThread" time="0.156">
+      <testcase classname="ee.jakarta.tck.concurrent.api.ManagedExecutors.ManagedExecutorsTests" name="manageRunnableTaskWithMapAndNullArg" time="0.106">
+      <testcase classname="ee.jakarta.tck.concurrent.api.ManagedExecutors.ManagedExecutorsTests" name="manageRunnableTaskWithTaskListenerAndMap" time="0.157">
+      <testcase classname="ee.jakarta.tck.concurrent.api.ManagedExecutors.ManagedExecutorsTests" name="manageCallableTaskWithNullArg" time="0.104">
+      <testcase classname="ee.jakarta.tck.concurrent.api.ManagedExecutors.ManagedExecutorsTests" name="manageRunnableTaskWithTaskListener" time="0.118">
+      <testcase classname="ee.jakarta.tck.concurrent.api.ManagedExecutors.ManagedExecutorsTests" name="manageCallableTaskWithMapAndNullArg" time="0.098">
+      <testcase classname="ee.jakarta.tck.concurrent.api.ManagedExecutors.ManagedExecutorsTests" name="isCurrentThreadShutdown" time="0.106">
+      <testcase classname="ee.jakarta.tck.concurrent.api.ManagedExecutors.ManagedExecutorsTests" name="manageCallableTaskWithTaskListenerAndMap" time="0.16">
+      <testcase classname="ee.jakarta.tck.concurrent.api.ManagedExecutors.ManagedExecutorsTests" name="manageCallableTaskWithTaskListener" time="0.134">
+  </testsuite>
+  <testsuite errors="0" failures="0" id="4" name="ManagedScheduledExecutorServiceTests" package="ee.jakarta.tck.concurrent.api.ManagedScheduledExecutorService" skipped="0" tests="4" time="7.09" version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd">
+      <testcase classname="ee.jakarta.tck.concurrent.api.ManagedScheduledExecutorService.ManagedScheduledExecutorServiceTests" name="normalScheduleProcess1Test" time="0.859">
+      <testcase classname="ee.jakarta.tck.concurrent.api.ManagedScheduledExecutorService.ManagedScheduledExecutorServiceTests" name="normalScheduleProcess2Test" time="0.063">
+      <testcase classname="ee.jakarta.tck.concurrent.api.ManagedScheduledExecutorService.ManagedScheduledExecutorServiceTests" name="nullCallableScheduleProcessTest" time="0.044">
+      <testcase classname="ee.jakarta.tck.concurrent.api.ManagedScheduledExecutorService.ManagedScheduledExecutorServiceTests" name="nullCommandScheduleProcessTest" time="0.083">
+  </testsuite>
+  <testsuite errors="0" failures="0" id="5" name="ManagedTaskTests" package="ee.jakarta.tck.concurrent.api.ManagedTask" skipped="0" tests="2" time="5.29" version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd">
+      <testcase classname="ee.jakarta.tck.concurrent.api.ManagedTask.ManagedTaskTests" name="getManagedTaskListener" time="0.856">
+      <testcase classname="ee.jakarta.tck.concurrent.api.ManagedTask.ManagedTaskTests" name="getExecutionProperties" time="0.054">
+  </testsuite>
+  <testsuite errors="0" failures="0" id="6" name="ManagedTaskListenerTests" package="ee.jakarta.tck.concurrent.api.ManagedTaskListener" skipped="0" tests="4" time="11.953" version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd">
+      <testcase classname="ee.jakarta.tck.concurrent.api.ManagedTaskListener.ManagedTaskListenerTests" name="taskSubmitted" time="0.672">
+      <testcase classname="ee.jakarta.tck.concurrent.api.ManagedTaskListener.ManagedTaskListenerTests" name="taskDone" time="4.052">
+      <testcase classname="ee.jakarta.tck.concurrent.api.ManagedTaskListener.ManagedTaskListenerTests" name="taskStarting" time="1.043">
+      <testcase classname="ee.jakarta.tck.concurrent.api.ManagedTaskListener.ManagedTaskListenerTests" name="taskAborted" time="2.055">
+  </testsuite>
+  <testsuite errors="0" failures="0" id="7" name="ManagedThreadFactoryTests" package="ee.jakarta.tck.concurrent.api.ManagedThreadFactory" skipped="0" tests="3" time="6.0" version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd">
+      <testcase classname="ee.jakarta.tck.concurrent.api.ManagedThreadFactory.ManagedThreadFactoryTests" name="isShutdown" time="0.652">
+      <testcase classname="ee.jakarta.tck.concurrent.api.ManagedThreadFactory.ManagedThreadFactoryTests" name="implementsManageableThreadInterfaceTest" time="0.043">
+      <testcase classname="ee.jakarta.tck.concurrent.api.ManagedThreadFactory.ManagedThreadFactoryTests" name="interruptThreadApiTest" time="1.056">
+  </testsuite>
+  <testsuite errors="0" failures="0" id="8" name="SkippedExceptionTests" package="ee.jakarta.tck.concurrent.api.SkippedException" skipped="0" tests="4" time="4.36" version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd">
+      <testcase classname="ee.jakarta.tck.concurrent.api.SkippedException.SkippedExceptionTests" name="skippedExceptionThrowableTest" time="0.569">
+      <testcase classname="ee.jakarta.tck.concurrent.api.SkippedException.SkippedExceptionTests" name="skippedExceptionNoArgTest" time="0.034">
+      <testcase classname="ee.jakarta.tck.concurrent.api.SkippedException.SkippedExceptionTests" name="skippedExceptionStringThrowableTest" time="0.046">
+      <testcase classname="ee.jakarta.tck.concurrent.api.SkippedException.SkippedExceptionTests" name="skippedExceptionStringTest" time="0.035">
+  </testsuite>
+  <testsuite errors="0" failures="0" id="9" name="TriggerTests" package="ee.jakarta.tck.concurrent.api.Trigger" skipped="0" tests="2" time="21.458" version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd">
+      <testcase classname="ee.jakarta.tck.concurrent.api.Trigger.TriggerTests" name="triggerGetNextRunTimeTest" time="16.463">
+      <testcase classname="ee.jakarta.tck.concurrent.api.Trigger.TriggerTests" name="triggerSkipRunTest" time="1.039">
+  </testsuite>
+  <testsuite errors="0" failures="0" id="10" name="ContextPropagationFullTests" package="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate" skipped="3" tests="18" time="8.483" version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.ContextPropagationFullTests" name="testSecurityUnchangedContext" time="0.0">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.ContextPropagationFullTests" name="testContextServiceDefinitionFromEJBAllAttributes" time="0.987">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.ContextPropagationFullTests" name="testContextualConsumer" time="0.097">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.ContextPropagationFullTests" name="testJNDIContextAndCreateProxyInEJB" time="0.207">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.ContextPropagationFullTests" name="testContextServiceDefinitionWithThirdPartyContext" time="0.03">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.ContextPropagationFullTests" name="testSecurityClearedContext" time="0.0">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.ContextPropagationFullTests" name="testJNDIContextAndCreateProxyInServlet" time="0.068">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.ContextPropagationFullTests" name="testSecurityAndCreateProxyInServlet" time="0.185">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.ContextPropagationFullTests" name="testContextualFunction" time="0.0">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.ContextPropagationFullTests" name="testSecurityPropagatedContext" time="1.732">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.ContextPropagationFullTests" name="testContextualFlowSubscriber" time="0.044">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.ContextPropagationFullTests" name="testContextServiceDefinitionDefaults" time="0.036">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.ContextPropagationFullTests" name="testCopyWithContextCapture" time="0.033">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.ContextPropagationFullTests" name="testContextualSupplier" time="0.052">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.ContextPropagationFullTests" name="testContextServiceDefinitionFromEJBDefaults" time="0.064">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.ContextPropagationFullTests" name="testClassloaderAndCreateProxyInServlet" time="0.024">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.ContextPropagationFullTests" name="testContextServiceDefinitionAllAttributes" time="0.023">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.ContextPropagationFullTests" name="testContextualFlowProcessor" time="0.022">
+  </testsuite>
+  <testsuite errors="0" failures="0" id="11" name="ContextPropagationWebTests" package="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate" skipped="4" tests="18" time="5.879" version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.ContextPropagationWebTests" name="testSecurityUnchangedContext" time="0.0">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.ContextPropagationWebTests" name="testContextServiceDefinitionFromEJBAllAttributes" time="0.11">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.ContextPropagationWebTests" name="testContextualConsumer" time="0.026">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.ContextPropagationWebTests" name="testJNDIContextAndCreateProxyInEJB" time="0.0">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.ContextPropagationWebTests" name="testContextServiceDefinitionWithThirdPartyContext" time="0.06">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.ContextPropagationWebTests" name="testSecurityClearedContext" time="0.0">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.ContextPropagationWebTests" name="testJNDIContextAndCreateProxyInServlet" time="0.074">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.ContextPropagationWebTests" name="testSecurityAndCreateProxyInServlet" time="0.052">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.ContextPropagationWebTests" name="testContextualFunction" time="0.0">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.ContextPropagationWebTests" name="testSecurityPropagatedContext" time="0.466">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.ContextPropagationWebTests" name="testContextualFlowSubscriber" time="0.037">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.ContextPropagationWebTests" name="testContextServiceDefinitionDefaults" time="0.017">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.ContextPropagationWebTests" name="testCopyWithContextCapture" time="0.021">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.ContextPropagationWebTests" name="testContextualSupplier" time="0.074">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.ContextPropagationWebTests" name="testContextServiceDefinitionFromEJBDefaults" time="0.078">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.ContextPropagationWebTests" name="testClassloaderAndCreateProxyInServlet" time="0.02">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.ContextPropagationWebTests" name="testContextServiceDefinitionAllAttributes" time="0.017">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.ContextPropagationWebTests" name="testContextualFlowProcessor" time="0.073">
+  </testsuite>
+  <testsuite errors="0" failures="0" id="12" name="ContextPropagationServletTests" package="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.servlet" skipped="0" tests="2" time="10.723" version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.servlet.ContextPropagationServletTests" name="testClassloaderInServlet" time="0.277">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.servlet.ContextPropagationServletTests" name="testJNDIContextInServlet" time="0.056">
+  </testsuite>
+  <testsuite errors="0" failures="0" id="13" name="TransactionTests" package="ee.jakarta.tck.concurrent.spec.ContextService.tx" skipped="0" tests="5" time="7.538" version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.tx.TransactionTests" name="testTransactionOfExecuteThreadAndCommit" time="3.309">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.tx.TransactionTests" name="testSuspendAndRollback" time="0.129">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.tx.TransactionTests" name="testSuspendAndCommit" time="0.119">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.tx.TransactionTests" name="testDefaultAndCommit" time="0.222">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.tx.TransactionTests" name="testTransactionOfExecuteThreadAndRollback" time="0.117">
+  </testsuite>
+  <testsuite errors="0" failures="0" id="14" name="InheritedAPITests" package="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.inheritedapi" skipped="0" tests="4" time="13.055" version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.inheritedapi.InheritedAPITests" name="testExecute" time="0.603">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.inheritedapi.InheritedAPITests" name="testInvokeAll" time="3.053">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.inheritedapi.InheritedAPITests" name="testInvokeAny" time="3.043">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.inheritedapi.InheritedAPITests" name="testSubmit" time="3.05">
+  </testsuite>
+  <testsuite errors="0" failures="0" id="15" name="ForbiddenAPIEJBTests" package="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.managed.forbiddenapi" skipped="0" tests="5" time="4.556" version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.managed.forbiddenapi.ForbiddenAPIEJBTests" name="testIsShutdown" time="0.733">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.managed.forbiddenapi.ForbiddenAPIEJBTests" name="testAwaitTermination" time="0.041">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.managed.forbiddenapi.ForbiddenAPIEJBTests" name="testShutdown" time="0.071">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.managed.forbiddenapi.ForbiddenAPIEJBTests" name="testShutdownNow" time="0.041">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.managed.forbiddenapi.ForbiddenAPIEJBTests" name="testIsTerminated" time="0.071">
+  </testsuite>
+  <testsuite errors="0" failures="0" id="16" name="ForbiddenAPIServletTests" package="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.managed.forbiddenapi" skipped="0" tests="5" time="4.647" version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.managed.forbiddenapi.ForbiddenAPIServletTests" name="testIsShutdown" time="0.53">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.managed.forbiddenapi.ForbiddenAPIServletTests" name="testAwaitTermination" time="0.08">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.managed.forbiddenapi.ForbiddenAPIServletTests" name="testShutdown" time="0.05">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.managed.forbiddenapi.ForbiddenAPIServletTests" name="testShutdownNow" time="0.089">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.managed.forbiddenapi.ForbiddenAPIServletTests" name="testIsTerminated" time="0.132">
+  </testsuite>
+  <testsuite errors="0" failures="0" id="17" name="ManagedExecutorDefinitionFullTests" package="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.resourcedef" skipped="1" tests="19" time="98.497" version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.resourcedef.ManagedExecutorDefinitionFullTests" name="testScheduledAsynchCompletedFuture" time="10.114">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.resourcedef.ManagedExecutorDefinitionFullTests" name="testScheduledAsynchCompletedResult" time="11.519">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.resourcedef.ManagedExecutorDefinitionFullTests" name="testAsyncCompletionStage" time="0.037">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.resourcedef.ManagedExecutorDefinitionFullTests" name="testScheduledAsynchCompletedExceptionally" time="9.958">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.resourcedef.ManagedExecutorDefinitionFullTests" name="testScheduledAsynchOverlapSkipping" time="14.996">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.resourcedef.ManagedExecutorDefinitionFullTests" name="testIncompleteFutureEJB" time="0.055">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.resourcedef.ManagedExecutorDefinitionFullTests" name="testCopyCompletableFuture" time="0.021">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.resourcedef.ManagedExecutorDefinitionFullTests" name="testAsynchronousMethodVoidReturnType" time="0.057">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.resourcedef.ManagedExecutorDefinitionFullTests" name="testScheduledAsynchVoidReturn" time="27.031">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.resourcedef.ManagedExecutorDefinitionFullTests" name="testScheduledAsynchWithMultipleSchedules" time="14.827">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.resourcedef.ManagedExecutorDefinitionFullTests" name="testAsynchronousMethodReturnsCompletableFuture" time="1.015">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.resourcedef.ManagedExecutorDefinitionFullTests" name="testIncompleteFuture" time="0.013">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.resourcedef.ManagedExecutorDefinitionFullTests" name="testAsynchronousMethodReturnsCompletionStage" time="1.015">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.resourcedef.ManagedExecutorDefinitionFullTests" name="testCompletedFuture" time="0.0">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.resourcedef.ManagedExecutorDefinitionFullTests" name="testManagedExecutorDefinitionAllAttributes" time="1.013">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.resourcedef.ManagedExecutorDefinitionFullTests" name="testManagedExecutorDefinitionDefaults" time="0.017">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.resourcedef.ManagedExecutorDefinitionFullTests" name="testScheduledAsynchWithInvalidJNDIName" time="0.018">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.resourcedef.ManagedExecutorDefinitionFullTests" name="testScheduledAsynchIgnoresMaxAsync" time="2.896">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.resourcedef.ManagedExecutorDefinitionFullTests" name="testCopyCompletableFutureEJB" time="0.025">
+  </testsuite>
+  <testsuite errors="0" failures="0" id="18" name="ManagedExecutorDefinitionWebTests" package="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.resourcedef" skipped="1" tests="19" time="98.976" version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.resourcedef.ManagedExecutorDefinitionWebTests" name="testScheduledAsynchCompletedFuture" time="10.089">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.resourcedef.ManagedExecutorDefinitionWebTests" name="testScheduledAsynchCompletedResult" time="13.221">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.resourcedef.ManagedExecutorDefinitionWebTests" name="testAsyncCompletionStage" time="0.016">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.resourcedef.ManagedExecutorDefinitionWebTests" name="testScheduledAsynchCompletedExceptionally" time="9.981">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.resourcedef.ManagedExecutorDefinitionWebTests" name="testScheduledAsynchOverlapSkipping" time="13.996">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.resourcedef.ManagedExecutorDefinitionWebTests" name="testIncompleteFutureEJB" time="0.017">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.resourcedef.ManagedExecutorDefinitionWebTests" name="testCopyCompletableFuture" time="0.015">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.resourcedef.ManagedExecutorDefinitionWebTests" name="testAsynchronousMethodVoidReturnType" time="0.016">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.resourcedef.ManagedExecutorDefinitionWebTests" name="testScheduledAsynchVoidReturn" time="27.032">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.resourcedef.ManagedExecutorDefinitionWebTests" name="testScheduledAsynchWithMultipleSchedules" time="14.906">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.resourcedef.ManagedExecutorDefinitionWebTests" name="testAsynchronousMethodReturnsCompletableFuture" time="1.018">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.resourcedef.ManagedExecutorDefinitionWebTests" name="testIncompleteFuture" time="0.015">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.resourcedef.ManagedExecutorDefinitionWebTests" name="testAsynchronousMethodReturnsCompletionStage" time="1.017">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.resourcedef.ManagedExecutorDefinitionWebTests" name="testCompletedFuture" time="0.0">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.resourcedef.ManagedExecutorDefinitionWebTests" name="testManagedExecutorDefinitionAllAttributes" time="1.017">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.resourcedef.ManagedExecutorDefinitionWebTests" name="testManagedExecutorDefinitionDefaults" time="0.02">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.resourcedef.ManagedExecutorDefinitionWebTests" name="testScheduledAsynchWithInvalidJNDIName" time="0.018">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.resourcedef.ManagedExecutorDefinitionWebTests" name="testScheduledAsynchIgnoresMaxAsync" time="2.881">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.resourcedef.ManagedExecutorDefinitionWebTests" name="testCopyCompletableFutureEJB" time="0.019">
+  </testsuite>
+  <testsuite errors="0" failures="0" id="19" name="SecurityFullTests" package="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.security" skipped="1" tests="1" time="3.347" version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.security.SecurityFullTests" name="managedExecutorServiceAPISecurityTest" time="0.0">
+  </testsuite>
+  <testsuite errors="0" failures="0" id="20" name="SecurityWebTests" package="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.security" skipped="1" tests="1" time="3.895" version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.security.SecurityWebTests" name="managedExecutorServiceAPISecurityTest" time="0.0">
+  </testsuite>
+  <testsuite errors="0" failures="0" id="21" name="TransactionTests" package="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.tx" skipped="0" tests="3" time="4.951" version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.tx.TransactionTests" name="testCancelTransactionWithManagedExecutorService" time="1.449">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.tx.TransactionTests" name="testRollbackTransactionWithManagedExecutorService" time="0.026">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.tx.TransactionTests" name="testCommitTransactionWithManagedExecutorService" time="0.015">
+  </testsuite>
+  <testsuite errors="0" failures="0" id="22" name="InheritedAPIFullTests" package="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.inheritedapi" skipped="0" tests="7" time="48.742" version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.inheritedapi.InheritedAPIFullTests" name="testApiInvokeAll" time="3.606">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.inheritedapi.InheritedAPIFullTests" name="testApiInvokeAny" time="3.047">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.inheritedapi.InheritedAPIFullTests" name="testApiSchedule" time="4.048">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.inheritedapi.InheritedAPIFullTests" name="testApiExecute" time="1.061">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.inheritedapi.InheritedAPIFullTests" name="testApiScheduleWithFixedDelay" time="15.047">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.inheritedapi.InheritedAPIFullTests" name="testApiSubmit" time="3.042">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.inheritedapi.InheritedAPIFullTests" name="testApiScheduleAtFixedRate" time="15.036">
+  </testsuite>
+  <testsuite errors="0" failures="0" id="23" name="InheritedAPIServletTests" package="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.inheritedapi" skipped="0" tests="7" time="47.357" version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.inheritedapi.InheritedAPIServletTests" name="testApiInvokeAll" time="3.504">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.inheritedapi.InheritedAPIServletTests" name="testApiInvokeAny" time="3.06">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.inheritedapi.InheritedAPIServletTests" name="testApiSchedule" time="4.046">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.inheritedapi.InheritedAPIServletTests" name="testApiExecute" time="0.037">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.inheritedapi.InheritedAPIServletTests" name="testApiScheduleWithFixedDelay" time="15.036">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.inheritedapi.InheritedAPIServletTests" name="testApiSubmit" time="3.047">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.inheritedapi.InheritedAPIServletTests" name="testApiScheduleAtFixedRate" time="15.037">
+  </testsuite>
+  <testsuite errors="0" failures="0" id="24" name="InheritedAPIWebTests" package="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.inheritedapi" skipped="0" tests="7" time="47.469" version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.inheritedapi.InheritedAPIWebTests" name="testApiInvokeAll" time="3.545">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.inheritedapi.InheritedAPIWebTests" name="testApiInvokeAny" time="3.043">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.inheritedapi.InheritedAPIWebTests" name="testApiSchedule" time="4.045">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.inheritedapi.InheritedAPIWebTests" name="testApiExecute" time="0.045">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.inheritedapi.InheritedAPIWebTests" name="testApiScheduleWithFixedDelay" time="15.043">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.inheritedapi.InheritedAPIWebTests" name="testApiSubmit" time="3.043">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.inheritedapi.InheritedAPIWebTests" name="testApiScheduleAtFixedRate" time="15.049">
+  </testsuite>
+  <testsuite errors="0" failures="0" id="25" name="ForbiddenAPIEJBTests" package="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.managed.forbiddenapi" skipped="0" tests="5" time="4.479" version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.managed.forbiddenapi.ForbiddenAPIEJBTests" name="testIsShutdown" time="0.479">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.managed.forbiddenapi.ForbiddenAPIEJBTests" name="testAwaitTermination" time="0.061">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.managed.forbiddenapi.ForbiddenAPIEJBTests" name="testShutdown" time="0.038">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.managed.forbiddenapi.ForbiddenAPIEJBTests" name="testShutdownNow" time="0.068">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.managed.forbiddenapi.ForbiddenAPIEJBTests" name="testIsTerminated" time="0.038">
+  </testsuite>
+  <testsuite errors="0" failures="0" id="26" name="ForbiddenAPIServletTests" package="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.managed.forbiddenapi" skipped="0" tests="5" time="4.385" version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.managed.forbiddenapi.ForbiddenAPIServletTests" name="testIsShutdown" time="0.453">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.managed.forbiddenapi.ForbiddenAPIServletTests" name="testAwaitTermination" time="0.07">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.managed.forbiddenapi.ForbiddenAPIServletTests" name="testShutdown" time="0.044">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.managed.forbiddenapi.ForbiddenAPIServletTests" name="testShutdownNow" time="0.072">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.managed.forbiddenapi.ForbiddenAPIServletTests" name="testIsTerminated" time="0.038">
+  </testsuite>
+  <testsuite errors="0" failures="0" id="27" name="ManagedScheduledExecutorDefinitionFullTests" package="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef" skipped="1" tests="21" time="105.312" version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionFullTests" name="testScheduledAsynchCompletedFuture" time="10.054">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionFullTests" name="testAsynchronousMethodRunsWithContext" time="0.012">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionFullTests" name="testAsynchronousMethodWithMaxAsync3" time="1.033">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionFullTests" name="testManagedScheduledExecutorDefinitionAllAttributesEJB" time="1.04">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionFullTests" name="testScheduledAsynchCompletedResult" time="12.872">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionFullTests" name="testIncompleteFutureMSEEJB" time="0.021">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionFullTests" name="testScheduledAsynchCompletedExceptionally" time="9.974">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionFullTests" name="testNotAnAsynchronousMethod" time="0.014">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionFullTests" name="testManagedScheduledExecutorDefinitionDefaultsEJB" time="0.676">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionFullTests" name="testCompletedFutureMSE" time="0.0">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionFullTests" name="testScheduledAsynchOverlapSkipping" time="12.305">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionFullTests" name="testIncompleteFutureMSE" time="0.017">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionFullTests" name="testManagedScheduledExecutorDefinitionDefaults" time="1.17">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionFullTests" name="testScheduleWithZonedTrigger" time="0.021">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionFullTests" name="testScheduledAsynchVoidReturn" time="27.025">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionFullTests" name="testScheduledAsynchWithMultipleSchedules" time="13.757">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionFullTests" name="testScheduledAsynchWithInvalidJNDIName" time="0.025">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionFullTests" name="testAsyncCompletionStageMSE" time="0.012">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionFullTests" name="testScheduleWithCronTrigger" time="5.958">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionFullTests" name="testManagedScheduledExecutorDefinitionAllAttributes" time="1.012">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionFullTests" name="testScheduledAsynchIgnoresMaxAsync" time="4.68">
+  </testsuite>
+  <testsuite errors="0" failures="0" id="28" name="ManagedScheduledExecutorDefinitionWebTests" package="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef" skipped="1" tests="21" time="104.779" version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionWebTests" name="testScheduledAsynchCompletedFuture" time="10.049">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionWebTests" name="testAsynchronousMethodRunsWithContext" time="0.01">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionWebTests" name="testAsynchronousMethodWithMaxAsync3" time="1.013">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionWebTests" name="testManagedScheduledExecutorDefinitionAllAttributesEJB" time="1.018">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionWebTests" name="testScheduledAsynchCompletedResult" time="12.153">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionWebTests" name="testIncompleteFutureMSEEJB" time="0.013">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionWebTests" name="testScheduledAsynchCompletedExceptionally" time="9.985">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionWebTests" name="testNotAnAsynchronousMethod" time="0.012">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionWebTests" name="testManagedScheduledExecutorDefinitionDefaultsEJB" time="1.619">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionWebTests" name="testCompletedFutureMSE" time="0.0">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionWebTests" name="testScheduledAsynchOverlapSkipping" time="14.36">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionWebTests" name="testIncompleteFutureMSE" time="0.014">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionWebTests" name="testManagedScheduledExecutorDefinitionDefaults" time="1.369">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionWebTests" name="testScheduleWithZonedTrigger" time="0.014">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionWebTests" name="testScheduledAsynchVoidReturn" time="27.027">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionWebTests" name="testScheduledAsynchWithMultipleSchedules" time="13.57">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionWebTests" name="testScheduledAsynchWithInvalidJNDIName" time="0.01">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionWebTests" name="testAsyncCompletionStageMSE" time="0.014">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionWebTests" name="testScheduleWithCronTrigger" time="5.97">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionWebTests" name="testManagedScheduledExecutorDefinitionAllAttributes" time="1.017">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionWebTests" name="testScheduledAsynchIgnoresMaxAsync" time="1.982">
+  </testsuite>
+  <testsuite errors="0" failures="0" id="29" name="SecurityFullTests" package="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.security" skipped="1" tests="1" time="3.341" version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.security.SecurityFullTests" name="managedScheduledExecutorServiceAPISecurityTest" time="0.0">
+  </testsuite>
+  <testsuite errors="0" failures="0" id="30" name="SecurityWebTests" package="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.security" skipped="1" tests="1" time="3.022" version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.security.SecurityWebTests" name="managedScheduledExecutorServiceAPISecurityTest" time="0.0">
+  </testsuite>
+  <testsuite errors="0" failures="0" id="31" name="TransactionTests" package="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.tx" skipped="0" tests="3" time="4.907" version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.tx.TransactionTests" name="testRollbackTransactionWithManagedScheduledExecutorService" time="0.331">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.tx.TransactionTests" name="testCancelTransactionWithManagedScheduledExecutorService" time="1.016">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.tx.TransactionTests" name="testCommitTransactionWithManagedScheduledExecutorService" time="0.019">
+  </testsuite>
+  <testsuite errors="0" failures="0" id="32" name="ContextFullTests" package="ee.jakarta.tck.concurrent.spec.ManagedThreadFactory.context" skipped="0" tests="2" time="4.415" version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedThreadFactory.context.ContextFullTests" name="jndiClassloaderPropagationTest" time="0.043">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedThreadFactory.context.ContextFullTests" name="jndiClassloaderPropagationWithSecurityTest" time="1.015">
+  </testsuite>
+  <testsuite errors="0" failures="0" id="33" name="ContextWebTests" package="ee.jakarta.tck.concurrent.spec.ManagedThreadFactory.context" skipped="0" tests="2" time="4.434" version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedThreadFactory.context.ContextWebTests" name="jndiClassloaderPropagationTest" time="0.026">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedThreadFactory.context.ContextWebTests" name="jndiClassloaderPropagationWithSecurityTest" time="1.013">
+  </testsuite>
+  <testsuite errors="0" failures="0" id="34" name="ManagedThreadFactoryDefinitionFullTests" package="ee.jakarta.tck.concurrent.spec.ManagedThreadFactory.resourcedef" skipped="4" tests="6" time="3.492" version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedThreadFactory.resourcedef.ManagedThreadFactoryDefinitionFullTests" name="testManagedThreadFactoryDefinitionAllAttributesEJB" time="0.0">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedThreadFactory.resourcedef.ManagedThreadFactoryDefinitionFullTests" name="testManagedThreadFactoryDefinitionAllAttributes" time="0.0">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedThreadFactory.resourcedef.ManagedThreadFactoryDefinitionFullTests" name="testParallelStreamBackedByManagedThreadFactoryEJB" time="0.0">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedThreadFactory.resourcedef.ManagedThreadFactoryDefinitionFullTests" name="testParallelStreamBackedByManagedThreadFactory" time="0.0">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedThreadFactory.resourcedef.ManagedThreadFactoryDefinitionFullTests" name="testManagedThreadFactoryDefinitionDefaultsEJB" time="0.111">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedThreadFactory.resourcedef.ManagedThreadFactoryDefinitionFullTests" name="testManagedThreadFactoryDefinitionDefaults" time="0.02">
+  </testsuite>
+  <testsuite errors="0" failures="0" id="35" name="ManagedThreadFactoryDefinitionWebTests" package="ee.jakarta.tck.concurrent.spec.ManagedThreadFactory.resourcedef" skipped="4" tests="6" time="3.328" version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedThreadFactory.resourcedef.ManagedThreadFactoryDefinitionWebTests" name="testManagedThreadFactoryDefinitionAllAttributesEJB" time="0.0">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedThreadFactory.resourcedef.ManagedThreadFactoryDefinitionWebTests" name="testManagedThreadFactoryDefinitionAllAttributes" time="0.0">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedThreadFactory.resourcedef.ManagedThreadFactoryDefinitionWebTests" name="testParallelStreamBackedByManagedThreadFactoryEJB" time="0.0">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedThreadFactory.resourcedef.ManagedThreadFactoryDefinitionWebTests" name="testParallelStreamBackedByManagedThreadFactory" time="0.0">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedThreadFactory.resourcedef.ManagedThreadFactoryDefinitionWebTests" name="testManagedThreadFactoryDefinitionDefaultsEJB" time="0.05">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedThreadFactory.resourcedef.ManagedThreadFactoryDefinitionWebTests" name="testManagedThreadFactoryDefinitionDefaults" time="0.021">
+  </testsuite>
+  <testsuite errors="0" failures="0" id="36" name="TransactionTests" package="ee.jakarta.tck.concurrent.spec.ManagedThreadFactory.tx" skipped="0" tests="3" time="8.384" version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedThreadFactory.tx.TransactionTests" name="testCommitTransactionWithManagedThreadFactory" time="1.274">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedThreadFactory.tx.TransactionTests" name="testCancelTransactionWithManagedThreadFactory" time="2.022">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedThreadFactory.tx.TransactionTests" name="testRollbackTransactionWithManagedThreadFactory" time="1.011">
+  </testsuite>
+  <testsuite errors="0" failures="0" id="37" name="AnnotationFullTests" package="ee.jakarta.tck.concurrent.spec.Platform.anno" skipped="1" tests="8" time="5.74" version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.Platform.anno.AnnotationFullTests" name="testAnnotationDefinesManagedThreadFactory" time="0.0">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.Platform.anno.AnnotationFullTests" name="testAnnoDefinedManagedScheduledExecutorSvcQualifers" time="0.135">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.Platform.anno.AnnotationFullTests" name="testAnnoDefinedManagedExecutorSvcQualifiers" time="0.017">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.Platform.anno.AnnotationFullTests" name="testAnnoDefinedManagedThreadFactoryQualifersFull" time="0.016">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.Platform.anno.AnnotationFullTests" name="testAnnotationDefinesContextService" time="0.015">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.Platform.anno.AnnotationFullTests" name="testAnnotationDefinesManagedExecutor" time="1.01">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.Platform.anno.AnnotationFullTests" name="testAnnoDefinedContextServiceQualifiers" time="0.01">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.Platform.anno.AnnotationFullTests" name="testAnnotationDefinesManagedScheduledExecutor" time="1.019">
+  </testsuite>
+  <testsuite errors="0" failures="0" id="38" name="AnnotationWebTests" package="ee.jakarta.tck.concurrent.spec.Platform.anno" skipped="1" tests="8" time="5.615" version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.Platform.anno.AnnotationWebTests" name="testAnnotationDefinesManagedThreadFactory" time="0.0">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.Platform.anno.AnnotationWebTests" name="testAnnoDefinedManagedScheduledExecutorSvcQualifers" time="0.078">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.Platform.anno.AnnotationWebTests" name="testAnnoDefinedManagedExecutorSvcQualifiers" time="0.015">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.Platform.anno.AnnotationWebTests" name="testAnnotationDefinesContextService" time="0.014">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.Platform.anno.AnnotationWebTests" name="testAnnoDefinedManagedThreadFactoryQualifersWeb" time="0.023">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.Platform.anno.AnnotationWebTests" name="testAnnotationDefinesManagedExecutor" time="1.012">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.Platform.anno.AnnotationWebTests" name="testAnnoDefinedContextServiceQualifiers" time="0.011">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.Platform.anno.AnnotationWebTests" name="testAnnotationDefinesManagedScheduledExecutor" time="1.021">
+  </testsuite>
+  <testsuite errors="0" failures="0" id="39" name="DeploymentDescriptorFullTests" package="ee.jakarta.tck.concurrent.spec.Platform.dd" skipped="1" tests="8" time="5.384" version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.Platform.dd.DeploymentDescriptorFullTests" name="testDeploymentDescriptorDefinesManagedScheduledExecutor" time="1.069">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.Platform.dd.DeploymentDescriptorFullTests" name="testDeploymentDescriptorDefinedContextServiceQualifiers" time="0.04">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.Platform.dd.DeploymentDescriptorFullTests" name="testDeploymentDescriptorDefinesManagedExecutor" time="1.016">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.Platform.dd.DeploymentDescriptorFullTests" name="testDeploymentDescriptorDefinesManagedThreadFactory" time="0.0">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.Platform.dd.DeploymentDescriptorFullTests" name="testDeploymentDescriptorDefinedManagedExecutorSvcQualifiers" time="0.014">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.Platform.dd.DeploymentDescriptorFullTests" name="testDeploymentDescriptorDefinedManagedScheduledExecutorSvcQualifers" time="0.014">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.Platform.dd.DeploymentDescriptorFullTests" name="testDeploymentDescriptorDefinedManagedThreadFactoryQualifers" time="0.015">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.Platform.dd.DeploymentDescriptorFullTests" name="testDeploymentDescriptorDefinesContextService" time="0.013">
+  </testsuite>
+  <testsuite errors="0" failures="0" id="40" name="DeploymentDescriptorWebTests" package="ee.jakarta.tck.concurrent.spec.Platform.dd" skipped="1" tests="8" time="5.401" version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.Platform.dd.DeploymentDescriptorWebTests" name="testDeploymentDescriptorDefinesManagedScheduledExecutor" time="1.07">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.Platform.dd.DeploymentDescriptorWebTests" name="testDeploymentDescriptorDefinedContextServiceQualifiers" time="0.02">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.Platform.dd.DeploymentDescriptorWebTests" name="testDeploymentDescriptorDefinesManagedExecutor" time="1.018">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.Platform.dd.DeploymentDescriptorWebTests" name="testDeploymentDescriptorDefinesManagedThreadFactory" time="0.0">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.Platform.dd.DeploymentDescriptorWebTests" name="testDeploymentDescriptorDefinedManagedExecutorSvcQualifiers" time="0.013">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.Platform.dd.DeploymentDescriptorWebTests" name="testDeploymentDescriptorDefinedManagedScheduledExecutorSvcQualifers" time="0.016">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.Platform.dd.DeploymentDescriptorWebTests" name="testDeploymentDescriptorDefinedManagedThreadFactoryQualifers" time="0.014">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.Platform.dd.DeploymentDescriptorWebTests" name="testDeploymentDescriptorDefinesContextService" time="0.035">
+  </testsuite>
+  <testsuite errors="0" failures="0" id="41" name="VirtualFullTests" package="ee.jakarta.tck.concurrent.spec.Platform.virtual" skipped="0" tests="7" time="2.893" version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.Platform.virtual.VirtualFullTests" name="testPlatformScheduledExecutor" time="0.026">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.Platform.virtual.VirtualFullTests" name="testPlatformExecutor" time="0.011">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.Platform.virtual.VirtualFullTests" name="testVirtualScheduledExecutor" time="0.014">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.Platform.virtual.VirtualFullTests" name="testVirtualThreadFactory" time="0.045">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.Platform.virtual.VirtualFullTests" name="testVirtualThreadFactoryForkJoinPool" time="0.028">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.Platform.virtual.VirtualFullTests" name="testPlatformThreadFactory" time="0.014">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.Platform.virtual.VirtualFullTests" name="testVirtualExecutor" time="0.057">
+  </testsuite>
+  <testsuite errors="0" failures="0" id="42" name="VirtualWebTests" package="ee.jakarta.tck.concurrent.spec.Platform.virtual" skipped="0" tests="7" time="3.432" version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.Platform.virtual.VirtualWebTests" name="testPlatformScheduledExecutor" time="0.026">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.Platform.virtual.VirtualWebTests" name="testPlatformExecutor" time="0.011">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.Platform.virtual.VirtualWebTests" name="testVirtualScheduledExecutor" time="0.014">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.Platform.virtual.VirtualWebTests" name="testVirtualThreadFactory" time="0.012">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.Platform.virtual.VirtualWebTests" name="testVirtualThreadFactoryForkJoinPool" time="0.011">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.Platform.virtual.VirtualWebTests" name="testPlatformThreadFactory" time="0.012">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.Platform.virtual.VirtualWebTests" name="testVirtualExecutor" time="0.014">
+  </testsuite>
+  <testsuite errors="0" failures="0" id="43" name="SignatureTests" package="ee.jakarta.tck.concurrent.spec.signature" skipped="0" tests="1" time="13.201" version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd">
+      <testcase classname="ee.jakarta.tck.concurrent.spec.signature.SignatureTests" name="testSignatures" time="5.175">
+  </testsuite>
+</testsuites>
+----

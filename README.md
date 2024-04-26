@@ -60,7 +60,7 @@ Reference the [sample TCKResults](./TCKResults.adoc) file for an example of the 
  
    In the PR, provide a link to your page on the [certifications-draft site](https://certifications-draft-openlibertyio.mqj6zf7jocq.us-south.codeengine.appdomain.cloud/certifications) or [draft site](https://draft-openlibertyio.mqj6zf7jocq.us-south.codeengine.appdomain.cloud/certifications). Ideally, also paste a screenshot of the entire Certification/TCK Result page as this will allow reviewers to see the rendered content even while the sites are innaccessible (e.g. during redeploys).
    
-   Add @mbroz2 or another admin to get their final approval for both content and format.
+   Add the [Release Architect](https://github.com/orgs/OpenLiberty/teams/release-architect) or another admin to get their final approval for both content and format.
    
    As before, make any changes in your feature branch, create a PR `draft` branch, get it reviewed and merged, and once the site rebuilds, check that everything is correct on the [certifications-draft site](https://certifications-draft-openlibertyio.mqj6zf7jocq.us-south.codeengine.appdomain.cloud/certifications) or [draft site](https://draft-openlibertyio.mqj6zf7jocq.us-south.codeengine.appdomain.cloud/certifications).
 
@@ -89,7 +89,7 @@ These steps are completed by the admins of this repo. They might ask questions o
    
    Make any changes in the author's branch, and push to both `draft` and `staging`.
    
-6. To publish the content, create a PR from `staging` branch to `prod` branch and add @mbroz2 (or other admin) as approver.
+6. To publish the content, create a PR from `staging` branch to `prod` branch and add the [Release Architect](https://github.com/orgs/OpenLiberty/teams/release-architect) (or other admin) as approver.
 
 7. When the PR is approved, merge it into `prod`.
 

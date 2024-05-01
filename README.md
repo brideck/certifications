@@ -43,7 +43,7 @@ Reference the [sample TCKResults](./TCKResults.adoc) file for an example of the 
 
 5. Push the file to GitHub (if you're a member of this org, feel free to push your branch to the certification repo instead of using a fork), then create a pull request (PR) into the `draft` branch.
 
-6. Request a code review.  The code review can be from anyone, however, you should consider including @mbroz2, @Emily-Jiang (for MicroProfile), @jhanders34 (for Jakarta EE), or @tevans78 (for MicroProfile/Jakarta EE).  Once the PR has been approved, merge it into `draft`.
+6. Request a code review.  The code review can be from anyone, however, you should consider including the [Release Architect](https://github.com/orgs/OpenLiberty/teams/release-architect), @Emily-Jiang (for MicroProfile), @jhanders34 (for Jakarta EE), or @tevans78 (for MicroProfile/Jakarta EE).  Once the PR has been approved, merge it into `draft`.
 
 6. All the builds and deployments of non-prod sites are on IBM Cloud and build automatically whenever a PR is merged into their respective branch. These builds are private and, therefore, their detailed build/deploy progress can't be tracked. However, if you have access to the [Slack channel for draft site](https://app.slack.com/client/T15GKHBT4/C01G7L68KAP) or the [Slack channel for staging site](https://app.slack.com/client/T15GKHBT4/C01GX9P8YP2), you can at least track when the builds start and finish.
 

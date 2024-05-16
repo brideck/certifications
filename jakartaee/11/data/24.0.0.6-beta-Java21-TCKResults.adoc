@@ -1,0 +1,163 @@
+:page-layout: certification 
+= TCK Results
+
+As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of Jakarta Data.
+
+== Open Liberty 24.0.0.6-beta - Jakarta Data Certification Summary (Java 21)
+
+* Product Name, Version and download URL (if applicable):
++
+https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/tck/2024-05-06_1951/openliberty-24.0.0.6-beta.zip[Open Liberty 24.0.0.6-beta]
+
+* Specification Name, Version and download URL:
++
+https://jakarta.ee/specifications/data/1.0[Jakarta Data 1.0]
+
+* TCK Version, digital SHA-256 fingerprint and download URL:
++
+https://download.eclipse.org/ee4j/data/jakartaee11/staged/eftl/data-tck-1.0.0.zip[Jakarta Data 1.0 TCK], https://download.eclipse.org/ee4j/data/jakartaee11/staged/eftl/data-tck-1.0.0.info[SHA-256]: `02dda1984b67f57bf6996942bea6b1234476e7d1a14bd5770f54f1264decaf35`
+
+* Public URL of TCK Results Summary:
++
+link:24.0.0.6-beta-Java21-TCKResults.html[TCK results summary]
+
+* Java runtime used to run the implementation:
++
+----
+openjdk version "21.0.2" 2024-01-16 LTS
+IBM Semeru Runtime Open Edition 21.0.2.0 (build 21.0.2+13-LTS)
+Eclipse OpenJ9 VM 21.0.2.0 (build openj9-0.43.0, JRE 21 Linux amd64-64-Bit Compressed References 20240116_94 (JIT enabled, AOT enabled)
+OpenJ9   - 2c3d78b48
+OMR      - ea8124dbc
+JCL      - 78c4500a434 based on jdk-21.0.2+13)
+----
+
+* Summary of the information for the certification environment, operating system, cloud, ...:
++
+Ubuntu (5.15.0-107-generic)
+
+Test results:
+
+----
+[INFO] Tests run: 99, Failures: 0, Errors: 0, Skipped: 0
+----
+
+[source,xml]
+----
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" id="0" name="CDITests(full)" package="ee.jakarta.tck.data.core.cdi" skipped="0" tests="2" time="58.005" version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd">
+      <testcase classname="ee.jakarta.tck.data.core.cdi.CDITests(full)" name="testDataRepositoryHonorsProviderAttribute" time="2.01">
+      <testcase classname="ee.jakarta.tck.data.core.cdi.CDITests(full)" name="testDataRepositoryHonorsEntityDefiningAnnotation" time="0.174">
+  </testsuite>
+  <testsuite errors="0" failures="0" id="1" name="EntityTests(full)" package="ee.jakarta.tck.data.standalone.entity" skipped="0" tests="73" time="28.899" version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testCursoredPageOfNothing" time="1.585">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testThirdAndFourthSlicesOf5" time="0.703">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testCursoredPageOf7FromCursor" time="0.604">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testContainsInString" time="0.606">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testSingleEntity" time="0.43">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testFirstSliceOf5" time="0.382">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testQueryWithOr" time="0.467">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testStaticMetamodelAttributeNames" time="0.403">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testEmptyQuery" time="0.492">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testOrderByHasPrecedenceOverPageRequestSorts" time="0.82">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testDefaultMethod" time="0.503">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testEmptyResultException" time="0.302">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testQueryWithNull" time="0.271">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testNot" time="0.309">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testStreamsFromList" time="0.277">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testStaticMetamodelDescendingSortsPreGenerated" time="0.21">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testLiteralInteger" time="0.266">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testVarargsSort" time="0.24">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testStaticMetamodelAscendingSortsPreGenerated" time="0.249">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testFindOne" time="0.268">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testFalse" time="0.26">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testLimit" time="0.256">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testTrue" time="0.27">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testBasicRepository" time="0.308">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testLessThanWithCount" time="0.279">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testFindFirst3" time="0.277">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testNonUniqueResultException" time="0.323">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testFinalSliceOfUpTo5" time="0.272">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testBy" time="0.24">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testIn" time="0.238">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testOr" time="0.283">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testLiteralEnumAndLiteralFalse" time="0.216">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testLimitToOneResult" time="0.246">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testQueryWithNot" time="0.281">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testThirdAndFourthPagesOf10" time="0.228">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testSliceOfNothing" time="0.239">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testQueryWithParenthesis" time="0.222">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testLimitedRange" time="0.23">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testFindList" time="0.235">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testFindPage" time="0.215">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testPageOfNothing" time="0.274">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testIgnoreCase" time="0.219">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testFirstPageOf10" time="0.22">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testBasicRepositoryBuiltInMethods" time="0.257">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testFindAllWithPagination" time="0.2">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testCommonInterfaceQueries" time="0.201">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testDataRepository" time="0.319">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testPrimaryEntityClassDeterminedByLifeCycleMethods" time="0.296">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testFirstCursoredPageOf8AndNextPages" time="0.226">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testStaticMetamodelDescendingSorts" time="0.216">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testUpdateQueryWithoutWhereClause" time="0.184">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testDescendingSort" time="0.225">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testBasicRepositoryMethods" time="0.218">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testGreaterThanEqualExists" time="0.215">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="ensureCharacterPrepopulation" time="0.267">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testBeyondFinalSlice" time="0.201">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testStaticMetamodelAttributeNamesPreGenerated" time="0.183">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testFindFirst" time="0.165">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testLiteralTrue" time="0.228">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testFindOptional" time="0.157">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testFinalPageOfUpTo10" time="0.194">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testCursoredPageWithoutTotalOfNothing" time="0.151">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testFirstCursoredPageWithoutTotalOf6AndNextPages" time="0.095">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testOrderByHasPrecedenceOverSorts" time="0.084">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testPartialQueryOrderBy" time="0.104">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testLiteralString" time="0.098">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="ensureNaturalNumberPrepopulation" time="0.111">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testUpdateQueryWithWhereClause" time="0.097">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testMixedSort" time="0.094">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testPartialQuerySelectAndOrderBy" time="0.097">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testStaticMetamodelAscendingSorts" time="0.1">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testCursoredPageWithoutTotalOf9FromCursor" time="0.118">
+      <testcase classname="ee.jakarta.tck.data.standalone.entity.EntityTests(full)" name="testBeyondFinalPage" time="0.163">
+  </testsuite>
+  <testsuite errors="0" failures="0" id="2" name="PersistenceEntityTests(full)" package="ee.jakarta.tck.data.standalone.persistence" skipped="0" tests="10" time="8.864" version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd">
+      <testcase classname="ee.jakarta.tck.data.standalone.persistence.PersistenceEntityTests(full)" name="testLike" time="1.66">
+      <testcase classname="ee.jakarta.tck.data.standalone.persistence.PersistenceEntityTests(full)" name="testNull" time="0.303">
+      <testcase classname="ee.jakarta.tck.data.standalone.persistence.PersistenceEntityTests(full)" name="testMultipleInsertUpdateDelete" time="0.43">
+      <testcase classname="ee.jakarta.tck.data.standalone.persistence.PersistenceEntityTests(full)" name="testInsertEntityThatAlreadyExists" time="0.272">
+      <testcase classname="ee.jakarta.tck.data.standalone.persistence.PersistenceEntityTests(full)" name="testIdAttributeWithDifferentName" time="0.416">
+      <testcase classname="ee.jakarta.tck.data.standalone.persistence.PersistenceEntityTests(full)" name="testVersionedInsertUpdateDelete" time="0.4">
+      <testcase classname="ee.jakarta.tck.data.standalone.persistence.PersistenceEntityTests(full)" name="testQueryWithNamedParameters" time="0.543">
+      <testcase classname="ee.jakarta.tck.data.standalone.persistence.PersistenceEntityTests(full)" name="testEntityManager" time="0.271">
+      <testcase classname="ee.jakarta.tck.data.standalone.persistence.PersistenceEntityTests(full)" name="testQueryWithPositionalParameters" time="0.567">
+      <testcase classname="ee.jakarta.tck.data.standalone.persistence.PersistenceEntityTests(full)" name="testNotRunOnNOSQL" time="0.3">
+  </testsuite>
+  <testsuite errors="0" failures="0" id="3" name="SignatureTests(full)" package="ee.jakarta.tck.data.standalone.signature" skipped="0" tests="1" time="19.369" version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd">
+      <testcase classname="ee.jakarta.tck.data.standalone.signature.SignatureTests(full)" name="testSignatures" time="9.298">
+  </testsuite>
+  <testsuite errors="0" failures="0" id="4" name="ComplexServletTests(full)" package="ee.jakarta.tck.data.web.example" skipped="0" tests="3" time="3.91" version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd">
+      <testcase classname="ee.jakarta.tck.data.web.example.ComplexServletTests(full)" name="testSuccessAndFailure(TestInfo)" time="0.111">
+      <testcase classname="ee.jakarta.tck.data.web.example.ComplexServletTests(full)" name="testServletSideCustomResponse(TestInfo)" time="0.017">
+      <testcase classname="ee.jakarta.tck.data.web.example.ComplexServletTests(full)" name="testMatchServletSideMethodName(TestInfo)" time="0.009">
+  </testsuite>
+  <testsuite errors="0" failures="0" id="5" name="PersistenceTests(full)" package="ee.jakarta.tck.data.web.transaction" skipped="0" tests="2" time="4.469" version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd">
+      <testcase classname="ee.jakarta.tck.data.web.transaction.PersistenceTests(full)" name="testRollback" time="1.439">
+      <testcase classname="ee.jakarta.tck.data.web.transaction.PersistenceTests(full)" name="testCommit" time="0.16">
+  </testsuite>
+  <testsuite errors="0" failures="0" id="6" name="ValidationTests(full)" package="ee.jakarta.tck.data.web.validation" skipped="0" tests="8" time="5.42" version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd">
+      <testcase classname="ee.jakarta.tck.data.web.validation.ValidationTests(full)" name="testUpdateWithInvalidConstraints" time="0.902">
+      <testcase classname="ee.jakarta.tck.data.web.validation.ValidationTests(full)" name="testUpdateWithValidConstraints" time="0.166">
+      <testcase classname="ee.jakarta.tck.data.web.validation.ValidationTests(full)" name="testUpdateAllWithValidConstraints" time="0.464">
+      <testcase classname="ee.jakarta.tck.data.web.validation.ValidationTests(full)" name="testUpdateAllWithInvalidConstraints" time="0.222">
+      <testcase classname="ee.jakarta.tck.data.web.validation.ValidationTests(full)" name="testValidResultsFromMethod" time="0.21">
+      <testcase classname="ee.jakarta.tck.data.web.validation.ValidationTests(full)" name="testSaveWithValidConstraints" time="0.195">
+      <testcase classname="ee.jakarta.tck.data.web.validation.ValidationTests(full)" name="testSaveWithInvalidConstraints" time="0.183">
+      <testcase classname="ee.jakarta.tck.data.web.validation.ValidationTests(full)" name="testInvalidResultsFromMethod" time="0.13">
+  </testsuite>
+</testsuites>
+----

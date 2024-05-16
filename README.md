@@ -43,7 +43,7 @@ Reference the [sample TCKResults](./TCKResults.adoc) file for an example of the 
 
 5. Push the file to GitHub (if you're a member of this org, feel free to push your branch to the certification repo instead of using a fork), then create a pull request (PR) into the `draft` branch.
 
-6. Request a code review.  The code review can be from anyone, however, you should consider including @mbroz2, @Emily-Jiang (for MicroProfile), @jhanders34 (for Jakarta EE), or @tevans78 (for MicroProfile/Jakarta EE).  Once the PR has been approved, merge it into `draft`.
+6. Request a code review.  The code review can be from anyone, however, you should consider including the [Release Architect](https://github.com/orgs/OpenLiberty/teams/release-architect), @Emily-Jiang (for MicroProfile), @jhanders34 (for Jakarta EE), or @tevans78 (for MicroProfile/Jakarta EE).  Once the PR has been approved, merge it into `draft`.
 
 6. All the builds and deployments of non-prod sites are on IBM Cloud and build automatically whenever a PR is merged into their respective branch. These builds are private and, therefore, their detailed build/deploy progress can't be tracked. However, if you have access to the [Slack channel for draft site](https://app.slack.com/client/T15GKHBT4/C01G7L68KAP) or the [Slack channel for staging site](https://app.slack.com/client/T15GKHBT4/C01GX9P8YP2), you can at least track when the builds start and finish.
 
@@ -60,7 +60,7 @@ Reference the [sample TCKResults](./TCKResults.adoc) file for an example of the 
  
    In the PR, provide a link to your page on the [certifications-draft site](https://certifications-draft-openlibertyio.mqj6zf7jocq.us-south.codeengine.appdomain.cloud/certifications) or [draft site](https://draft-openlibertyio.mqj6zf7jocq.us-south.codeengine.appdomain.cloud/certifications). Ideally, also paste a screenshot of the entire Certification/TCK Result page as this will allow reviewers to see the rendered content even while the sites are innaccessible (e.g. during redeploys).
    
-   Add @mbroz2 or another admin to get their final approval for both content and format.
+   Add the [Release Architect](https://github.com/orgs/OpenLiberty/teams/release-architect) or another admin to get their final approval for both content and format.
    
    As before, make any changes in your feature branch, create a PR `draft` branch, get it reviewed and merged, and once the site rebuilds, check that everything is correct on the [certifications-draft site](https://certifications-draft-openlibertyio.mqj6zf7jocq.us-south.codeengine.appdomain.cloud/certifications) or [draft site](https://draft-openlibertyio.mqj6zf7jocq.us-south.codeengine.appdomain.cloud/certifications).
 
@@ -89,7 +89,7 @@ These steps are completed by the admins of this repo. They might ask questions o
    
    Make any changes in the author's branch, and push to both `draft` and `staging`.
    
-6. To publish the content, create a PR from `staging` branch to `prod` branch and add @mbroz2 (or other admin) as approver.
+6. To publish the content, create a PR from `staging` branch to `prod` branch and add the [Release Architect](https://github.com/orgs/OpenLiberty/teams/release-architect) (or other admin) as approver.
 
 7. When the PR is approved, merge it into `prod`.
 

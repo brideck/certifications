@@ -79,9 +79,9 @@ These steps are completed by the admins of this repo. They might ask questions o
    
 2. Approve the PR and merge it into `staging` branch.
 
-4. IBM Cloud will automatically rebuild the [certifications-staging site](https://certifications-staging-openlibertyio.mqj6zf7jocq.us-south.codeengine.appdomain.cloud/certifications) and [staging site](https://staging-openlibertyio.mqj6zf7jocq.us-south.codeengine.appdomain.cloud/certifications). If you have access, you can track the progress in the [Slack channel](https://app.slack.com/client/T15GKHBT4/C01GX9P8YP2).
+3. IBM Cloud will automatically rebuild the [certifications-staging site](https://certifications-staging-openlibertyio.mqj6zf7jocq.us-south.codeengine.appdomain.cloud/certifications) and [staging site](https://staging-openlibertyio.mqj6zf7jocq.us-south.codeengine.appdomain.cloud/certifications). If you have access, you can track the progress in the [Slack channel](https://app.slack.com/client/T15GKHBT4/C01GX9P8YP2).
 
-5. When the build has finished, check to make sure the page render correctly on the [certifications-staging site](https://certifications-staging-openlibertyio.mqj6zf7jocq.us-south.codeengine.appdomain.cloud/certifications) or [staging site](https://staging-openlibertyio.mqj6zf7jocq.us-south.codeengine.appdomain.cloud/certifications). The latter includes the entire site, while the former just has the /certifications/ content.  If you need to verify links to other parts of the site (outside of the /certifications/ content) then you'll need to wait for the full [staging site](https://staging-openlibertyio.mqj6zf7jocq.us-south.codeengine.appdomain.cloud/) to build.
+4. When the build has finished, check to make sure the page renders correctly on the [certifications-staging site](https://certifications-staging-openlibertyio.mqj6zf7jocq.us-south.codeengine.appdomain.cloud/certifications) or [staging site](https://staging-openlibertyio.mqj6zf7jocq.us-south.codeengine.appdomain.cloud/certifications). The latter includes the entire site, while the former just has the /certifications/ content.  If you need to verify links to other parts of the site (outside of the /certifications/ content) then you'll need to wait for the full [staging site](https://staging-openlibertyio.mqj6zf7jocq.us-south.codeengine.appdomain.cloud/) to build.
 
    This is the final check before the page is published live on the [production site](https://openliberty.io/).
 
@@ -89,12 +89,14 @@ These steps are completed by the admins of this repo. They might ask questions o
    
    Make any changes in the author's branch, and push to both `draft` and `staging`.
    
-6. To publish the content, create a PR from `staging` branch to `prod` branch and add the [Release Architect](https://github.com/orgs/OpenLiberty/teams/release-architect) (or other admin) as approver.
+5. To publish the content, create a PR from `staging` branch to `prod` branch and add the [Release Architect](https://github.com/orgs/OpenLiberty/teams/release-architect), another admin, or the author as approver.
 
-7. When the PR is approved, merge it into `prod`.
+6. When the PR is approved, merge it into `prod`.
 
-12. Rebuild the [production site from the IBM Cloud console](https://console.bluemix.net/devops/pipelines/fcc7c3e9-9c40-4a58-8a7f-09c08413ab7d?env_id=ibm:yp:us-south).
+7. Request a production build of the site in the [#was-open-liberty-site](https://app.slack.com/client/E27SFGS2W/C4U7TQUSY) Slack channel. Or, for site admins with permission, rebuild the [production site from the IBM Cloud console](https://console.bluemix.net/devops/pipelines/fcc7c3e9-9c40-4a58-8a7f-09c08413ab7d?env_id=ibm:yp:us-south).
+
+    You can monitor the [#was-ol-site-alerts](https://app.slack.com/client/E27SFGS2W/CD82L5T3M) Slack channel for updates on the build.
 
     When the build has finished, check that the page looks as expected on [openliberty.io/](https://openliberty.io/).
 
-13. When the page is published, and any changes you made are in all three branches (`draft`, `staging`, and `prod`), delete the author's branch.
+8. When the page is published, and any changes you made are in all three branches (`draft`, `staging`, and `prod`), delete the author's branch.

@@ -1,0 +1,213 @@
+:page-layout: certification 
+= TCK Results
+
+As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of MicroProfile Reactive Messaging 3.0.1
+
+== Open Liberty 24.0.0.5 - MicroProfile Reactive Messaging 3.0.1 Certification Summary (Java 17)
+
+* Product Name, Version and download URL (if applicable):
++
+https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/release/24.0.0.5/openliberty-24.0.0.5.zip[Open Liberty 24.0.0.5]
+
+* Specification Name, Version and download URL:
++
+https://github.com/eclipse/microprofile-reactive-messaging/tree/3.0.1[MicroProfile Reactive Messaging 3.0.1 Specification]
+
+* (Optional) TCK Version, digital fingerprint and download URL:
++
+https://repo1.maven.org/maven2/org/eclipse/microprofile/reactive-messaging/microprofile-reactive-messaging-tck/3.0.1/microprofile-reactive-messaging-tck-3.0.1.jar[MicroProfile Reactive Messaging 3.0.1 TCK]
++
+SHA-1: `5b6d6eda848ccfdf7ce43f29364d4bba52fb1066`
++
+SHA-256: `cd26bcd976c2e8b64384c285d13f6da44cd3bf55c9ddde58e280f5e81dc3522c`
+
+* Public URL of TCK Results Summary:
++
+xref:24.0.0.5-MicroProfile-Reactive-Messaging-3.0.1-Java17-TCKResults.adoc[TCK results summary]
+
+
+* Java runtime used to run the implementation:
++
+Java 17: IBM Semeru Runtime Open Edition (17.0.11+9)
+
+* Summary of the information for the certification environment, operating system, cloud, ...:
++
+Windows 11: Microsoft Windows [Version 10.0.22631.3593]
+
+Report generated at: 2024-05-28T10:56:49Z
+Test results:
+
+[source, text]
+----
+Test suite: org.eclipse.microprofile.reactive.messaging.tck.acknowledgement.AsynchronousMessageProcessorAckTest 
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.reactive.messaging.tck.acknowledgement.AsynchronousMessageProcessorAckTest.testThatMessagesAreAckedAfterSuccessfulProcessingOfMessage Passed!
+   org.eclipse.microprofile.reactive.messaging.tck.acknowledgement.AsynchronousMessageProcessorAckTest.testThatMessagesAreNackedAfterFailingProcessingOfMessage Passed!
+Test suite: org.eclipse.microprofile.reactive.messaging.tck.acknowledgement.AsynchronousMessageSubscriberAckTest 
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.reactive.messaging.tck.acknowledgement.AsynchronousMessageSubscriberAckTest.testThatMessagesAreAckedAfterSuccessfulProcessingOfMessage Passed!
+   org.eclipse.microprofile.reactive.messaging.tck.acknowledgement.AsynchronousMessageSubscriberAckTest.testThatMessagesAreNackedAfterFailingProcessingOfMessage Passed!
+Test suite: org.eclipse.microprofile.reactive.messaging.tck.acknowledgement.AsynchronousPayloadProcessorAckTest 
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.reactive.messaging.tck.acknowledgement.AsynchronousPayloadProcessorAckTest.testThatMessagesAreNackedAfterFailingProcessingOfPayload Passed!
+   org.eclipse.microprofile.reactive.messaging.tck.acknowledgement.AsynchronousPayloadProcessorAckTest.testThatMessagesAreAckedAfterSuccessfulProcessingOfPayload Passed!
+Test suite: org.eclipse.microprofile.reactive.messaging.tck.acknowledgement.AsynchronousPayloadSubscriberAckTest 
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.reactive.messaging.tck.acknowledgement.AsynchronousPayloadSubscriberAckTest.testThatMessagesAreAckedAfterSuccessfulProcessingOfMessage Passed!
+   org.eclipse.microprofile.reactive.messaging.tck.acknowledgement.AsynchronousPayloadSubscriberAckTest.testThatMessagesAreNackedAfterFailingProcessingOfMessage Passed!
+Test suite: org.eclipse.microprofile.reactive.messaging.tck.acknowledgement.EmitterOfMessageAcknowledgementTest 
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.reactive.messaging.tck.acknowledgement.EmitterOfMessageAcknowledgementTest.testThatEmitterReceiveAcksAfterSuccessfulProcessingOfPayload Passed!
+   org.eclipse.microprofile.reactive.messaging.tck.acknowledgement.EmitterOfMessageAcknowledgementTest.testThatEmitterReceiveNacksAfterFailingProcessingOfPayload Passed!
+Test suite: org.eclipse.microprofile.reactive.messaging.tck.acknowledgement.EmitterOfPayloadAcknowledgementTest 
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.reactive.messaging.tck.acknowledgement.EmitterOfPayloadAcknowledgementTest.testThatEmitterReceiveAcksAfterSuccessfulProcessingOfPayload Passed!
+   org.eclipse.microprofile.reactive.messaging.tck.acknowledgement.EmitterOfPayloadAcknowledgementTest.testThatEmitterReceiveNacksAfterFailingProcessingOfPayload Passed!
+Test suite: org.eclipse.microprofile.reactive.messaging.tck.acknowledgement.MessageProcessorAckTest 
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.reactive.messaging.tck.acknowledgement.MessageProcessorAckTest.testThatMessagesAreAckedAfterSuccessfulProcessingOfMessage Passed!
+   org.eclipse.microprofile.reactive.messaging.tck.acknowledgement.MessageProcessorAckTest.testThatMessagesAreNackedAfterFailingProcessingOfMessage Passed!
+Test suite: org.eclipse.microprofile.reactive.messaging.tck.acknowledgement.PayloadProcessorAckTest 
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.reactive.messaging.tck.acknowledgement.PayloadProcessorAckTest.testThatMessagesAreAckedAfterSuccessfulProcessingOfMessage Passed!
+   org.eclipse.microprofile.reactive.messaging.tck.acknowledgement.PayloadProcessorAckTest.testThatMessagesAreNackedAfterFailingProcessingOfMessage Passed!
+Test suite: org.eclipse.microprofile.reactive.messaging.tck.acknowledgement.PayloadSubscriberAckTest 
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.reactive.messaging.tck.acknowledgement.PayloadSubscriberAckTest.testThatMessagesAreAckedAfterSuccessfulProcessingOfMessage Passed!
+   org.eclipse.microprofile.reactive.messaging.tck.acknowledgement.PayloadSubscriberAckTest.testThatMessagesAreNackedAfterFailingProcessingOfMessage Passed!
+Test suite: org.eclipse.microprofile.reactive.messaging.tck.channel.ChannelInjectionDifferentFlavourSameChannelTest 
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.reactive.messaging.tck.channel.ChannelInjectionDifferentFlavourSameChannelTest.testMultipleFieldInjection Passed!
+Test suite: org.eclipse.microprofile.reactive.messaging.tck.channel.ChannelInjectionPublisherBuilderMessageTest 
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.reactive.messaging.tck.channel.ChannelInjectionPublisherBuilderMessageTest.testInjectionOfPublisherBuilderOfMessages Passed!
+Test suite: org.eclipse.microprofile.reactive.messaging.tck.channel.ChannelInjectionPublisherBuilderPayloadTest 
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.reactive.messaging.tck.channel.ChannelInjectionPublisherBuilderPayloadTest.testInjectionOfPublisherBuilderOfPayloads Passed!
+Test suite: org.eclipse.microprofile.reactive.messaging.tck.channel.ChannelInjectionPublisherPayloadTest 
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.reactive.messaging.tck.channel.ChannelInjectionPublisherPayloadTest.testInjectionOfPublisherOfPayloads Passed!
+Test suite: org.eclipse.microprofile.reactive.messaging.tck.channel.ChannelInjectionPublisherTest 
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.reactive.messaging.tck.channel.ChannelInjectionPublisherTest.testInjectionOfPublisherOfMessages Passed!
+Test suite: org.eclipse.microprofile.reactive.messaging.tck.channel.EmitterInjectionAfterTerminatingWithErrorTest 
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.reactive.messaging.tck.channel.EmitterInjectionAfterTerminatingWithErrorTest.testTerminationWithError Passed!
+Test suite: org.eclipse.microprofile.reactive.messaging.tck.channel.EmitterInjectionConnectedToProcessorTest 
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.reactive.messaging.tck.channel.EmitterInjectionConnectedToProcessorTest.testWithProcessor Passed!
+Test suite: org.eclipse.microprofile.reactive.messaging.tck.channel.EmitterInjectionEmittingDataAfterTerminationTest 
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.reactive.messaging.tck.channel.EmitterInjectionEmittingDataAfterTerminationTest.testTermination Passed!
+Test suite: org.eclipse.microprofile.reactive.messaging.tck.channel.EmitterInjectionEmittingMessageTest 
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.reactive.messaging.tck.channel.EmitterInjectionEmittingMessageTest.testWithMessages Passed!
+Test suite: org.eclipse.microprofile.reactive.messaging.tck.channel.EmitterInjectionEmittingNullTest 
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.reactive.messaging.tck.channel.EmitterInjectionEmittingNullTest.testWithNull Passed!
+Test suite: org.eclipse.microprofile.reactive.messaging.tck.channel.EmitterInjectionMessageBeanWithPayloadsWithAckTest 
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.reactive.messaging.tck.channel.EmitterInjectionMessageBeanWithPayloadsWithAckTest.testMyMessageBeanWithPayloadsAndAck Passed!
+Test suite: org.eclipse.microprofile.reactive.messaging.tck.channel.EmitterInjectionMissingChannelTest 
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.reactive.messaging.tck.channel.EmitterInjectionMissingChannelTest.testMissingEmitter Passed!
+Test suite: org.eclipse.microprofile.reactive.messaging.tck.channel.EmitterInjectionPayloadsTest 
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.reactive.messaging.tck.channel.EmitterInjectionPayloadsTest.testWithPayloads Passed!
+Test suite: org.eclipse.microprofile.reactive.messaging.tck.channel.EmitterInjectionPayloadsWithAckTest 
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.reactive.messaging.tck.channel.EmitterInjectionPayloadsWithAckTest.testWithPayloadsAndAck Passed!
+Test suite: org.eclipse.microprofile.reactive.messaging.tck.channel.overflow.BufferOverflowStrategyOverflowTest 
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.reactive.messaging.tck.channel.overflow.BufferOverflowStrategyOverflowTest.testOverflow Passed!
+Test suite: org.eclipse.microprofile.reactive.messaging.tck.channel.overflow.BufferOverflowStrategyTest 
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.reactive.messaging.tck.channel.overflow.BufferOverflowStrategyTest.testNormal Passed!
+Test suite: org.eclipse.microprofile.reactive.messaging.tck.channel.overflow.DefaultOverflowStrategyOverflowTest 
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.reactive.messaging.tck.channel.overflow.DefaultOverflowStrategyOverflowTest.testOverflow Passed!
+Test suite: org.eclipse.microprofile.reactive.messaging.tck.channel.overflow.DefaultOverflowStrategyOverflowWithoutBufferSizeTest 
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.reactive.messaging.tck.channel.overflow.DefaultOverflowStrategyOverflowWithoutBufferSizeTest.testOverflow Passed!
+Test suite: org.eclipse.microprofile.reactive.messaging.tck.channel.overflow.DefaultOverflowStrategyTest 
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.reactive.messaging.tck.channel.overflow.DefaultOverflowStrategyTest.testNormal Passed!
+Test suite: org.eclipse.microprofile.reactive.messaging.tck.channel.overflow.DropOverflowStrategyOverflowTest 
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.reactive.messaging.tck.channel.overflow.DropOverflowStrategyOverflowTest.testOverflow Passed!
+Test suite: org.eclipse.microprofile.reactive.messaging.tck.channel.overflow.DropOverflowStrategyTest 
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.reactive.messaging.tck.channel.overflow.DropOverflowStrategyTest.testNormal Passed!
+Test suite: org.eclipse.microprofile.reactive.messaging.tck.channel.overflow.FailOverflowStrategyOverflowTest 
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.reactive.messaging.tck.channel.overflow.FailOverflowStrategyOverflowTest.testOverflow Passed!
+Test suite: org.eclipse.microprofile.reactive.messaging.tck.channel.overflow.LatestOverflowStrategyOverflowTest 
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.reactive.messaging.tck.channel.overflow.LatestOverflowStrategyOverflowTest.testOverflow Passed!
+Test suite: org.eclipse.microprofile.reactive.messaging.tck.channel.overflow.LatestOverflowStrategyTest 
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.reactive.messaging.tck.channel.overflow.LatestOverflowStrategyTest.testNormal Passed!
+Test suite: org.eclipse.microprofile.reactive.messaging.tck.channel.overflow.ThrowExceptionOverflowStrategyOverflowTest 
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.reactive.messaging.tck.channel.overflow.ThrowExceptionOverflowStrategyOverflowTest.testOverflow Passed!
+Test suite: org.eclipse.microprofile.reactive.messaging.tck.channel.overflow.ThrowExceptionOverflowStrategyTest 
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.reactive.messaging.tck.channel.overflow.ThrowExceptionOverflowStrategyTest.testNormal Passed!
+Test suite: org.eclipse.microprofile.reactive.messaging.tck.connector.ConnectorTest 
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.reactive.messaging.tck.connector.ConnectorTest.checkConnector Passed!
+Test suite: org.eclipse.microprofile.reactive.messaging.tck.connector.MissingConnectorTest 
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.reactive.messaging.tck.connector.MissingConnectorTest.testWhenTheConnectorAreNotConfigured Passed!
+   org.eclipse.microprofile.reactive.messaging.tck.connector.MissingConnectorTest.testWhenTheStreamNameDoesNotMatch Passed!
+Test suite: org.eclipse.microprofile.reactive.messaging.tck.invalid.InvalidConfigurationTest 
+Tests:16 Failures:0 Errors:0
+   org.eclipse.microprofile.reactive.messaging.tck.invalid.InvalidConfigurationTest.checkThatProcessorsWithTooManyDownstreamsAreDetected Passed!
+   org.eclipse.microprofile.reactive.messaging.tck.invalid.InvalidConfigurationTest.checkThatChannelWithoutUpstreamAreDetected Passed!
+   org.eclipse.microprofile.reactive.messaging.tck.invalid.InvalidConfigurationTest.checkThatEmitterWithMultipleDownstreamsAreDetected Passed!
+   org.eclipse.microprofile.reactive.messaging.tck.invalid.InvalidConfigurationTest.checkThatProcessorsWithTooManyUpstreamsAreDetected Passed!
+   org.eclipse.microprofile.reactive.messaging.tck.invalid.InvalidConfigurationTest.checkThatOutgoingConnectorWithoutUpstreamAreDetected Passed!
+   org.eclipse.microprofile.reactive.messaging.tck.invalid.InvalidConfigurationTest.checkThatEmptyIncomingAreRejected Passed!
+   org.eclipse.microprofile.reactive.messaging.tck.invalid.InvalidConfigurationTest.checkThatProcessorsWithoutUpstreamAreDetected Passed!
+   org.eclipse.microprofile.reactive.messaging.tck.invalid.InvalidConfigurationTest.checkThatOutgoingConnectorWithMultipleUpstreamsAreDetected Passed!
+   org.eclipse.microprofile.reactive.messaging.tck.invalid.InvalidConfigurationTest.checkThatChannelWithMultipleUpstreamsAreDetected Passed!
+   org.eclipse.microprofile.reactive.messaging.tck.invalid.InvalidConfigurationTest.checkThatIncomingConnectorWithMultipleDownstreamAreDetected Passed!
+   org.eclipse.microprofile.reactive.messaging.tck.invalid.InvalidConfigurationTest.checkThatEmptyOutgoingAreRejected Passed!
+   org.eclipse.microprofile.reactive.messaging.tck.invalid.InvalidConfigurationTest.checkThatInvalidOutgoingSignaturesAreRejected Passed!
+   org.eclipse.microprofile.reactive.messaging.tck.invalid.InvalidConfigurationTest.checkThatProcessorsWithoutDownstreamAreDetected Passed!
+   org.eclipse.microprofile.reactive.messaging.tck.invalid.InvalidConfigurationTest.checkThatIncomingConnectorWithoutDownstreamAreDetected Passed!
+   org.eclipse.microprofile.reactive.messaging.tck.invalid.InvalidConfigurationTest.checkThatEmitterWithoutDownstreamAreDetected Passed!
+   org.eclipse.microprofile.reactive.messaging.tck.invalid.InvalidConfigurationTest.checkThatIncompleteChainsAreDetected Passed!
+Test suite: org.eclipse.microprofile.reactive.messaging.tck.metrics.MetricsTest 
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.reactive.messaging.tck.metrics.MetricsTest.testMetricsConnector Passed!
+   org.eclipse.microprofile.reactive.messaging.tck.metrics.MetricsTest.testMetricsInApp Passed!
+Test suite: org.eclipse.microprofile.reactive.messaging.tck.ProcessorChainTest 
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.reactive.messaging.tck.ProcessorChainTest.test Passed!
+Test suite: org.eclipse.microprofile.reactive.messaging.tck.scope.ApplicationScopeTest 
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.reactive.messaging.tck.scope.ApplicationScopeTest.verify Passed!
+Test suite: org.eclipse.microprofile.reactive.messaging.tck.scope.DependantScopeTest 
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.reactive.messaging.tck.scope.DependantScopeTest.verify Passed!
+Test suite: org.eclipse.microprofile.reactive.messaging.tck.signatures.invalid.InvalidSubscriberSignatureTest 
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.reactive.messaging.tck.signatures.invalid.InvalidSubscriberSignatureTest.checkThatIncomingShouldNotReturnNonVoidCompletionStage Passed!
+   org.eclipse.microprofile.reactive.messaging.tck.signatures.invalid.InvalidSubscriberSignatureTest.checkThatIncomingShouldNotReturnObject Passed!
+Test suite: org.eclipse.microprofile.reactive.messaging.tck.signatures.processors.ProcessorShapeTest 
+Tests:4 Failures:0 Errors:0
+   org.eclipse.microprofile.reactive.messaging.tck.signatures.processors.ProcessorShapeTest.verifySignaturesConsumingSingleElement Passed!
+   org.eclipse.microprofile.reactive.messaging.tck.signatures.processors.ProcessorShapeTest.verifySignaturesReturningProcessors Passed!
+   org.eclipse.microprofile.reactive.messaging.tck.signatures.processors.ProcessorShapeTest.verifySignaturesReturningPublishers Passed!
+   org.eclipse.microprofile.reactive.messaging.tck.signatures.processors.ProcessorShapeTest.verifySignatureConsumingAndProducingStreams Passed!
+Test suite: org.eclipse.microprofile.reactive.messaging.tck.signatures.publishers.PublisherShapeTest 
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.reactive.messaging.tck.signatures.publishers.PublisherShapeTest.verifyPublisherSignatures Passed!
+Test suite: org.eclipse.microprofile.reactive.messaging.tck.signatures.subscribers.SubscriberShapeTest 
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.reactive.messaging.tck.signatures.subscribers.SubscriberShapeTest.verifySubscriberSignatures Passed!
+Test suite: org.eclipse.microprofile.reactive.messaging.tck.SimpleIncomingTest 
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.reactive.messaging.tck.SimpleIncomingTest.testReceptionWithValues Passed!
+----

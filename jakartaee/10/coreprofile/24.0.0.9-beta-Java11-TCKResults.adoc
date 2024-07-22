@@ -3,11 +3,11 @@
 
 As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of Jakarta EE Core Profile 10.
 
-== Open Liberty 24.0.0.9-beta Jakarta EE Core Profile 10 using Java 11 Certification Summary
+== Open Liberty 24.0.0.9-beta-cl240820240709-0302 Jakarta EE Core Profile 10 using Java 11 Certification Summary
 
 * Product Name, Version and download URL (if applicable):
 +
-https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/tck/2024-07-09_0302/openliberty-24.0.0.9-beta-cl240820240709-0302.zip[Open Liberty 24.0.0.9-beta]
+https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/tck/2024-07-09_0302/openliberty-24.0.0.9-beta-cl240820240709-0302.zip[Open Liberty 24.0.0.9-beta-cl240820240709-0302]
 
 * Specification Name, Version and download URL:
 +

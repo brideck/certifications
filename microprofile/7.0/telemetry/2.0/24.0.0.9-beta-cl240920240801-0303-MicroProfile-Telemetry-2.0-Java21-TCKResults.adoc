@@ -15,19 +15,19 @@ https://github.com/eclipse/microprofile-telemetry/tree/2.0[MicroProfile Telemetr
 
 * (Optional) TCK Version, digital fingerprint and download URL:
 +
-https://repo1.maven.org/maven2/org/eclipse/microprofile/telemetry/microprofile-telemetry-tracing-tck/2.0/microprofile-telemetry-tracing-tck-2.0.jar[MicroProfile Telemetry 2.0 Tracing TCK]
+https://oss.sonatype.org/content/repositories/orgeclipsemicroprofile-1720/org/eclipse/microprofile/telemetry/microprofile-telemetry-tracing-tck/2.0/microprofile-telemetry-tracing-tck-2.0.jar[MicroProfile Telemetry 2.0 Tracing TCK]
 +
 SHA-1: `f50fd4bbe75614e6be02ab5be841af21db055243`
 +
 SHA-256: `4c8e113180238e254efea5b0a4f2507594e0937fd50f7ca66208ceb23f567af8`
 +
-https://repo1.maven.org/maven2/org/eclipse/microprofile/telemetry/microprofile-telemetry-metrics-tck/2.0/microprofile-telemetry-metrics-tck-2.0.jar[MicroProfile Telemetry 2.0 Metrics TCK]
+https://oss.sonatype.org/content/repositories/orgeclipsemicroprofile-1720/org/eclipse/microprofile/telemetry/microprofile-telemetry-metrics-tck/2.0/microprofile-telemetry-metrics-tck-2.0.jar[MicroProfile Telemetry 2.0 Metrics TCK]
 +
 SHA-1: `437d9ee5cb928fe64d866080c5999d4115ce87bc`
 +
 SHA-256: `1cf09c29443a23e4814fca934e162af7cff9d13db9152a6a132deedaec2ef824`
 +
-https://repo1.maven.org/maven2/org/eclipse/microprofile/telemetry/microprofile-telemetry-logs-tck/2.0/microprofile-telemetry-logs-tck-2.0.jar[MicroProfile Telemetry 2.0 Logs TCK]
+https://oss.sonatype.org/content/repositories/orgeclipsemicroprofile-1720/org/eclipse/microprofile/telemetry/microprofile-telemetry-logs-tck/2.0/microprofile-telemetry-logs-tck-2.0.jar[MicroProfile Telemetry 2.0 Logs TCK]
 +
 SHA-1: `d6dcdfc6e0f0d3266bb8f1b8740b19c22f607fec`
 +

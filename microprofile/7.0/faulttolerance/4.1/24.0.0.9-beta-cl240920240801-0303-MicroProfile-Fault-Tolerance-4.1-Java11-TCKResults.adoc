@@ -15,7 +15,7 @@ https://github.com/eclipse/microprofile-fault-tolerance/tree/4.1[MicroProfile Fa
 
 * (Optional) TCK Version, digital fingerprint and download URL:
 +
-https://repo1.maven.org/maven2/org/eclipse/microprofile/fault-tolerance/microprofile-fault-tolerance-tck/4.1/microprofile-fault-tolerance-tck-4.1.jar[MicroProfile Fault Tolerance 4.1 TCK]
+https://oss.sonatype.org/content/repositories/orgeclipsemicroprofile-1721/org/eclipse/microprofile/fault-tolerance/microprofile-fault-tolerance-tck/4.1/microprofile-fault-tolerance-tck-4.1.jar[MicroProfile Fault Tolerance 4.1 TCK]
 +
 SHA-1: `2094322f87a8a6437fdc7483b3b3b5e3692db0bf`
 +

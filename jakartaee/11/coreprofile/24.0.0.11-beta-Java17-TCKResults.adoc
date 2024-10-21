@@ -1,7 +1,7 @@
 :page-layout: certification
 = TCK Results
 
-As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of Jakarta EE Core Profile 11.
+As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], the following is a summary of the TCK results for Jakarta EE Core Profile 11.
 
 == Open Liberty 24.0.0.11-beta Jakarta EE Core Profile 11 using Java 17 Certification Summary
 
@@ -62,7 +62,6 @@ JCL      - 9882134b8c0 based on jdk-17.0.12+7)
 
 * Summary of the information for the certification environment, operating system, cloud, ...:
 +
-Apache Derby 10.14.2.0
 Linux (5.15.0-118-generic; amd64)
 
 Test results:

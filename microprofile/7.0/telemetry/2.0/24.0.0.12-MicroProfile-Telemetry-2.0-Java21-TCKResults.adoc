@@ -1,0 +1,256 @@
+:page-layout: certification 
+= TCK Results
+
+As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of MicroProfile Telemetry 2.0
+
+== Open Liberty 24.0.0.12 - MicroProfile Telemetry 2.0 Certification Summary (Java 21)
+
+* Product Name, Version and download URL (if applicable):
++
+https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/release/24.0.0.12/openliberty-24.0.0.12.zip[Open Liberty 24.0.0.12]
+
+* Specification Name, Version and download URL:
++
+https://github.com/eclipse/microprofile-telemetry/tree/2.0[MicroProfile Telemetry 2.0 Specification]
+
+* (Optional) TCK Version, digital fingerprint and download URL:
++
+https://repo1.maven.org/maven2/org/eclipse/microprofile/telemetry/microprofile-telemetry-tck/2.0/microprofile-telemetry-tck-2.0.jar[MicroProfile Telemetry 2.0 TCK]
++
+SHA-1: `f50fd4bbe75614e6be02ab5be841af21db055243`
++
+SHA-256: `4c8e113180238e254efea5b0a4f2507594e0937fd50f7ca66208ceb23f567af8`
+
+* Public URL of TCK Results Summary:
++
+xref:24.0.0.12-MicroProfile-Telemetry-2.0-Java21-TCKResults.adoc[TCK results summary]
+
+
+* Java runtime used to run the implementation:
++
+Java 21: IBM Semeru Runtime Open Edition (21.0.4+7-LTS)
+
+* Summary of the information for the certification environment, operating system, cloud, ...:
++
+Linux: Linux version 5.15.0-125-generic (buildd@lcy02-amd64-040) (gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, GNU ld (GNU Binutils for Ubuntu) 2.38) #135-Ubuntu SMP Fri Sep 27 13:53:58 UTC 2024
+
+Report generated at: 2024-11-20T20:53:40Z
+Test results:
+
+[source, text]
+----
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.rest.B3PropagationTest 2024-11-20T12:29:59 PST
+Tests:2 Failures:0 Errors:1
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.B3PropagationTest.b3Propagation Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.B3PropagationTest.arquillianBeforeClass Failed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.rest.RestSpanTest 2024-11-20T12:29:59 PST
+Tests:4 Failures:0 Errors:1
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestSpanTest.spanName Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestSpanTest.spanNameWithoutQueryString Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestSpanTest.arquillianBeforeClass Failed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestSpanTest.span Passed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDefaultTest 2024-11-20T12:29:59 PST
+Tests:8 Failures:0 Errors:1
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDefaultTest.arquillianBeforeClass Failed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDefaultTest.spanName Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDefaultTest.spanError Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDefaultTest.spanCurrent Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDefaultTest.spanChild Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDefaultTest.spanNameQuery Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDefaultTest.span Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDefaultTest.spanNew Passed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.rest.RestSpanDisabledTest 2024-11-20T12:29:59 PST
+Tests:4 Failures:0 Errors:1
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestSpanDisabledTest.spanName Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestSpanDisabledTest.span Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestSpanDisabledTest.spanNameWithoutQueryString Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestSpanDisabledTest.arquillianBeforeClass Failed!
+Test suite: org.eclipse.microprofile.telemetry.metrics.tck.application.cdi.AsyncDoubleCounterTest 2024-11-20T12:29:59 PST
+Tests:2 Failures:0 Errors:1
+   org.eclipse.microprofile.telemetry.metrics.tck.application.cdi.AsyncDoubleCounterTest.arquillianBeforeClass Failed!
+   org.eclipse.microprofile.telemetry.metrics.tck.application.cdi.AsyncDoubleCounterTest.testAsyncDoubleCounter Passed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.async.JaxRsServerAsyncTest 2024-11-20T12:29:59 PST
+Tests:5 Failures:0 Errors:1
+   org.eclipse.microprofile.telemetry.tracing.tck.async.JaxRsServerAsyncTest.testJaxRsServerAsyncSuspendError Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.async.JaxRsServerAsyncTest.testJaxRsServerAsyncCompletionStageError Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.async.JaxRsServerAsyncTest.arquillianBeforeClass Failed!
+   org.eclipse.microprofile.telemetry.tracing.tck.async.JaxRsServerAsyncTest.testJaxRsServerAsyncSuspend Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.async.JaxRsServerAsyncTest.testJaxRsServerAsyncCompletionStage Passed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.cdi.BaggageBeanTest 2024-11-20T12:29:59 PST
+Tests:2 Failures:0 Errors:1
+   org.eclipse.microprofile.telemetry.tracing.tck.cdi.BaggageBeanTest.baggageBeanChange Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.cdi.BaggageBeanTest.arquillianBeforeClass Failed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.spi.ResourceSpiTest 2024-11-20T12:29:59 PST
+Tests:2 Failures:0 Errors:1
+   org.eclipse.microprofile.telemetry.tracing.tck.spi.ResourceSpiTest.arquillianBeforeClass Failed!
+   org.eclipse.microprofile.telemetry.tracing.tck.spi.ResourceSpiTest.testResource Passed!
+Test suite: org.eclipse.microprofile.telemetry.metrics.tck.application.http.HttpHistogramTest 2024-11-20T12:29:59 PST
+Tests:2 Failures:0 Errors:1
+   org.eclipse.microprofile.telemetry.metrics.tck.application.http.HttpHistogramTest.arquillianBeforeClass Failed!
+   org.eclipse.microprofile.telemetry.metrics.tck.application.http.HttpHistogramTest.collectsHttpRouteFromEndAttributes Passed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDisabledTest 2024-11-20T12:29:59 PST
+Tests:8 Failures:0 Errors:1
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDisabledTest.spanNameQuery Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDisabledTest.spanCurrent Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDisabledTest.spanNew Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDisabledTest.spanChild Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDisabledTest.arquillianBeforeClass Failed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDisabledTest.span Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDisabledTest.spanError Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDisabledTest.spanName Passed!
+Test suite: org.eclipse.microprofile.telemetry.metrics.tck.application.cdi.LongGaugeTest 2024-11-20T12:29:59 PST
+Tests:2 Failures:0 Errors:1
+   org.eclipse.microprofile.telemetry.metrics.tck.application.cdi.LongGaugeTest.arquillianBeforeClass Failed!
+   org.eclipse.microprofile.telemetry.metrics.tck.application.cdi.LongGaugeTest.testLongGauge Passed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.cdi.SpanBeanTest 2024-11-20T12:30:00 PST
+Tests:2 Failures:0 Errors:1
+   org.eclipse.microprofile.telemetry.tracing.tck.cdi.SpanBeanTest.arquillianBeforeClass Failed!
+   org.eclipse.microprofile.telemetry.tracing.tck.cdi.SpanBeanTest.spanBeanChange Passed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.cdi.TracerTest 2024-11-20T12:30:00 PST
+Tests:2 Failures:0 Errors:1
+   org.eclipse.microprofile.telemetry.tracing.tck.cdi.TracerTest.arquillianBeforeClass Failed!
+   org.eclipse.microprofile.telemetry.tracing.tck.cdi.TracerTest.tracer Passed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.spi.CustomizerSpiTest 2024-11-20T12:30:00 PST
+Tests:2 Failures:0 Errors:1
+   org.eclipse.microprofile.telemetry.tracing.tck.spi.CustomizerSpiTest.arquillianBeforeClass Failed!
+   org.eclipse.microprofile.telemetry.tracing.tck.spi.CustomizerSpiTest.testCustomizer Passed!
+Test suite: org.eclipse.microprofile.telemetry.metrics.tck.application.cdi.DoubleHistogramTest 2024-11-20T12:30:00 PST
+Tests:2 Failures:0 Errors:1
+   org.eclipse.microprofile.telemetry.metrics.tck.application.cdi.DoubleHistogramTest.arquillianBeforeClass Failed!
+   org.eclipse.microprofile.telemetry.metrics.tck.application.cdi.DoubleHistogramTest.testDoubleHistogram Passed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanTest 2024-11-20T12:30:00 PST
+Tests:10 Failures:0 Errors:1
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanTest.spanChild Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanTest.spanChildWithParameter Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanTest.spanNew Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanTest.arquillianBeforeClass Failed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanTest.spanClientError Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanTest.spanNameQuery Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanTest.span Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanTest.spanName Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanTest.spanError Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanTest.spanCurrent Passed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.rest.PropagatorSpiTest 2024-11-20T12:30:00 PST
+Tests:2 Failures:0 Errors:1
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.PropagatorSpiTest.arquillianBeforeClass Failed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.PropagatorSpiTest.testSPIPropagator Passed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.rest.RestSpanDefaultTest 2024-11-20T12:30:00 PST
+Tests:4 Failures:0 Errors:1
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestSpanDefaultTest.spanNameWithoutQueryString Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestSpanDefaultTest.span Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestSpanDefaultTest.arquillianBeforeClass Failed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestSpanDefaultTest.spanName Passed!
+Test suite: org.eclipse.microprofile.telemetry.metrics.tck.application.cdi.DoubleCounterTest 2024-11-20T12:30:00 PST
+Tests:2 Failures:0 Errors:1
+   org.eclipse.microprofile.telemetry.metrics.tck.application.cdi.DoubleCounterTest.arquillianBeforeClass Failed!
+   org.eclipse.microprofile.telemetry.metrics.tck.application.cdi.DoubleCounterTest.testDoubleCounter Passed!
+Test suite: org.eclipse.microprofile.telemetry.metrics.tck.application.cdi.LongCounterTest 2024-11-20T12:30:00 PST
+Tests:2 Failures:0 Errors:1
+   org.eclipse.microprofile.telemetry.metrics.tck.application.cdi.LongCounterTest.testLongCounter Passed!
+   org.eclipse.microprofile.telemetry.metrics.tck.application.cdi.LongCounterTest.arquillianBeforeClass Failed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.async.JaxRsClientAsyncTest 2024-11-20T12:30:00 PST
+Tests:4 Failures:0 Errors:1
+   org.eclipse.microprofile.telemetry.tracing.tck.async.JaxRsClientAsyncTest.testIntegrationWithJaxRsClientError Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.async.JaxRsClientAsyncTest.arquillianBeforeClass Failed!
+   org.eclipse.microprofile.telemetry.tracing.tck.async.JaxRsClientAsyncTest.testIntegrationWithJaxRsClientAsync Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.async.JaxRsClientAsyncTest.testIntegrationWithJaxRsClient Passed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.rest.W3PropagationTest 2024-11-20T12:30:00 PST
+Tests:2 Failures:0 Errors:1
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.W3PropagationTest.arquillianBeforeClass Failed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.W3PropagationTest.span Passed!
+Test suite: org.eclipse.microprofile.telemetry.metrics.tck.application.cdi.DoubleGaugeTest 2024-11-20T12:30:00 PST
+Tests:2 Failures:0 Errors:1
+   org.eclipse.microprofile.telemetry.metrics.tck.application.cdi.DoubleGaugeTest.arquillianBeforeClass Failed!
+   org.eclipse.microprofile.telemetry.metrics.tck.application.cdi.DoubleGaugeTest.testDoubleGauge Passed!
+Test suite: org.eclipse.microprofile.telemetry.metrics.tck.application.cdi.LongUpDownCounterTest 2024-11-20T12:30:00 PST
+Tests:2 Failures:0 Errors:1
+   org.eclipse.microprofile.telemetry.metrics.tck.application.cdi.LongUpDownCounterTest.arquillianBeforeClass Failed!
+   org.eclipse.microprofile.telemetry.metrics.tck.application.cdi.LongUpDownCounterTest.testLongUpDownCounter Passed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.spi.SamplerSpiTest 2024-11-20T12:30:00 PST
+Tests:2 Failures:0 Errors:1
+   org.eclipse.microprofile.telemetry.tracing.tck.spi.SamplerSpiTest.testSampler Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.spi.SamplerSpiTest.arquillianBeforeClass Failed!
+Test suite: org.eclipse.microprofile.telemetry.logs.tck.application.JulTest 2024-11-20T12:30:00 PST
+Tests:3 Failures:0 Errors:1
+   org.eclipse.microprofile.telemetry.logs.tck.application.JulTest.arquillianBeforeClass Failed!
+   org.eclipse.microprofile.telemetry.logs.tck.application.JulTest.julWarnTest Passed!
+   org.eclipse.microprofile.telemetry.logs.tck.application.JulTest.julInfoTest Passed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.rest.JaegerPropagationTest 2024-11-20T12:30:00 PST
+Tests:2 Failures:0 Errors:1
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.JaegerPropagationTest.arquillianBeforeClass Failed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.JaegerPropagationTest.jaegerPropagation Passed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.async.MpRestClientAsyncTest 2024-11-20T12:30:00 PST
+Tests:4 Failures:0 Errors:1
+   org.eclipse.microprofile.telemetry.tracing.tck.async.MpRestClientAsyncTest.arquillianBeforeClass Failed!
+   org.eclipse.microprofile.telemetry.tracing.tck.async.MpRestClientAsyncTest.testIntegrationWithMpRestClientAsync Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.async.MpRestClientAsyncTest.testIntegrationWithMpRestClientAsyncError Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.async.MpRestClientAsyncTest.testIntegrationWithMpRestClient Passed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.rest.B3MultiPropagationTest 2024-11-20T12:30:00 PST
+Tests:2 Failures:0 Errors:1
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.B3MultiPropagationTest.arquillianBeforeClass Failed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.B3MultiPropagationTest.b3MultiPropagation Passed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.rest.BaggageTest 2024-11-20T12:30:00 PST
+Tests:2 Failures:0 Errors:1
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.BaggageTest.arquillianBeforeClass Failed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.BaggageTest.baggage Passed!
+Test suite: org.eclipse.microprofile.telemetry.metrics.tck.application.cdi.AsyncLongCounterTest 2024-11-20T12:30:00 PST
+Tests:2 Failures:0 Errors:1
+   org.eclipse.microprofile.telemetry.metrics.tck.application.cdi.AsyncLongCounterTest.arquillianBeforeClass Failed!
+   org.eclipse.microprofile.telemetry.metrics.tck.application.cdi.AsyncLongCounterTest.testAsyncLongCounter Passed!
+Test suite: org.eclipse.microprofile.telemetry.metrics.tck.application.cdi.LongHistogramTest 2024-11-20T12:30:00 PST
+Tests:2 Failures:0 Errors:1
+   org.eclipse.microprofile.telemetry.metrics.tck.application.cdi.LongHistogramTest.arquillianBeforeClass Failed!
+   org.eclipse.microprofile.telemetry.metrics.tck.application.cdi.LongHistogramTest.testLongHistogram Passed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.TestApplication 2024-11-20T12:30:00 PST
+Tests:2 Failures:0 Errors:1
+   org.eclipse.microprofile.telemetry.tracing.tck.TestApplication.arquillianBeforeClass Failed!
+   org.eclipse.microprofile.telemetry.tracing.tck.TestApplication.rest Passed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.spi.ExporterSpiTest 2024-11-20T12:30:00 PST
+Tests:2 Failures:0 Errors:1
+   org.eclipse.microprofile.telemetry.tracing.tck.spi.ExporterSpiTest.testExporter Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.spi.ExporterSpiTest.arquillianBeforeClass Failed!
+Test suite: org.eclipse.microprofile.telemetry.metrics.tck.application.cdi.DoubleUpDownCounterTest 2024-11-20T12:30:00 PST
+Tests:2 Failures:0 Errors:1
+   org.eclipse.microprofile.telemetry.metrics.tck.application.cdi.DoubleUpDownCounterTest.testDoubleUpDownCounter Passed!
+   org.eclipse.microprofile.telemetry.metrics.tck.application.cdi.DoubleUpDownCounterTest.arquillianBeforeClass Failed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.rest.W3BaggagePropagationTest 2024-11-20T12:30:00 PST
+Tests:2 Failures:0 Errors:1
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.W3BaggagePropagationTest.span Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.W3BaggagePropagationTest.arquillianBeforeClass Failed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.cdi.OpenTelemetryBeanTest 2024-11-20T12:30:00 PST
+Tests:3 Failures:0 Errors:1
+   org.eclipse.microprofile.telemetry.tracing.tck.cdi.OpenTelemetryBeanTest.testSpanAndTracer Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.cdi.OpenTelemetryBeanTest.arquillianBeforeClass Failed!
+   org.eclipse.microprofile.telemetry.tracing.tck.cdi.OpenTelemetryBeanTest.testOpenTelemetryBean Passed!
+Test suite: org.eclipse.microprofile.telemetry.metrics.tck.jvm.JvmGarbageCollectionTest 2024-11-20T12:49:32 PST
+Tests:2 Failures:0 Errors:1
+   org.eclipse.microprofile.telemetry.metrics.tck.jvm.JvmGarbageCollectionTest.arquillianBeforeClass Failed!
+   org.eclipse.microprofile.telemetry.metrics.tck.jvm.JvmGarbageCollectionTest.testGarbageCollectionCountMetric Passed!
+Test suite: org.eclipse.microprofile.telemetry.metrics.tck.jvm.JvmCpuTest 2024-11-20T12:49:32 PST
+Tests:4 Failures:0 Errors:1
+   org.eclipse.microprofile.telemetry.metrics.tck.jvm.JvmCpuTest.testCpuCountMetric Passed!
+   org.eclipse.microprofile.telemetry.metrics.tck.jvm.JvmCpuTest.testCpuTimeMetric Passed!
+   org.eclipse.microprofile.telemetry.metrics.tck.jvm.JvmCpuTest.testCpuRecentUtilizationMetric Passed!
+   org.eclipse.microprofile.telemetry.metrics.tck.jvm.JvmCpuTest.arquillianBeforeClass Failed!
+Test suite: org.eclipse.microprofile.telemetry.metrics.tck.jvm.JvmThreadTest 2024-11-20T12:49:32 PST
+Tests:2 Failures:0 Errors:1
+   org.eclipse.microprofile.telemetry.metrics.tck.jvm.JvmThreadTest.testThreadCountMetric Passed!
+   org.eclipse.microprofile.telemetry.metrics.tck.jvm.JvmThreadTest.arquillianBeforeClass Failed!
+Test suite: org.eclipse.microprofile.telemetry.metrics.tck.jvm.JvmClassesTest 2024-11-20T12:49:32 PST
+Tests:4 Failures:0 Errors:1
+   org.eclipse.microprofile.telemetry.metrics.tck.jvm.JvmClassesTest.testClassCountMetrics Passed!
+   org.eclipse.microprofile.telemetry.metrics.tck.jvm.JvmClassesTest.arquillianBeforeClass Failed!
+   org.eclipse.microprofile.telemetry.metrics.tck.jvm.JvmClassesTest.testClassLoadedMetrics Passed!
+   org.eclipse.microprofile.telemetry.metrics.tck.jvm.JvmClassesTest.testClassUnloadedMetrics Passed!
+Test suite: org.eclipse.microprofile.telemetry.metrics.tck.jvm.JvmMemoryTest 2024-11-20T12:49:32 PST
+Tests:5 Failures:0 Errors:1
+   org.eclipse.microprofile.telemetry.metrics.tck.jvm.JvmMemoryTest.testMemoryUsedAfterLastGcMetric Passed!
+   org.eclipse.microprofile.telemetry.metrics.tck.jvm.JvmMemoryTest.testJvmMemoryCommittedMetric Passed!
+   org.eclipse.microprofile.telemetry.metrics.tck.jvm.JvmMemoryTest.testMemoryLimitMetric Passed!
+   org.eclipse.microprofile.telemetry.metrics.tck.jvm.JvmMemoryTest.arquillianBeforeClass Failed!
+   org.eclipse.microprofile.telemetry.metrics.tck.jvm.JvmMemoryTest.testJvmMemoryUsedMetric Passed!
+Test suite: org.eclipse.microprofile.telemetry.logs.tck.config.ServerInstanceTest 2024-11-20T12:53:32 PST
+Tests:2 Failures:0 Errors:1
+   org.eclipse.microprofile.telemetry.logs.tck.config.ServerInstanceTest.runtimeInstance Passed!
+   org.eclipse.microprofile.telemetry.logs.tck.config.ServerInstanceTest.arquillianBeforeClass Failed!
+----

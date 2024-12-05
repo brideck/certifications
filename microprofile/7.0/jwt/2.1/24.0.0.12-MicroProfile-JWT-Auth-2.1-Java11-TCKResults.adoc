@@ -11,7 +11,7 @@ https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/release
 
 * Specification Name, Version and download URL:
 +
-https://github.com/eclipse/microprofile-jwt-auth/tree/2.1[MicroProfile JWT Auth 2.1 Specification]
+https://repo1.maven.org/maven2/org/eclipse/microprofile/jwt/microprofile-jwt-auth-spec/2.1/[MicroProfile JWT Auth 2.1 Specification]
 
 * (Optional) TCK Version, digital fingerprint and download URL:
 +

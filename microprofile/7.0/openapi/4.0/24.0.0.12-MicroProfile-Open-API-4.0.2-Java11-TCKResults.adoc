@@ -11,7 +11,7 @@ https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/release
 
 * Specification Name, Version and download URL:
 +
-https://github.com/eclipse/microprofile-open-api/tree/4.0.2[MicroProfile Open API 4.0.2 Specification]
+https://repo1.maven.org/maven2/org/eclipse/microprofile/openapi/microprofile-openapi-spec/4.0.2/[MicroProfile Open API 4.0.2 Specification]
 
 * (Optional) TCK Version, digital fingerprint and download URL:
 +

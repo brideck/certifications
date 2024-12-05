@@ -11,7 +11,7 @@ https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/release
 
 * Specification Name, Version and download URL:
 +
-https://github.com/eclipse/microprofile-health/tree/4.0.1[MicroProfile Health 4.0.1 Specification]
+https://repo1.maven.org/maven2/org/eclipse/microprofile/health/microprofile-health-tck/4.0.1/[MicroProfile Health 4.0.1 Specification]
 
 * (Optional) TCK Version, digital fingerprint and download URL:
 +

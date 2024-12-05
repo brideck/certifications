@@ -5,7 +5,7 @@ As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Tech
 
 == Open Liberty 24.0.0.12 MicroProfile 7.0 Certification Summary
 
-MicroProfile 7.0 consists of 8 MicroProfile Specifications plus the Jakarta EE Core Profile 10.0 specfication.
+MicroProfile 7.0 consists of 7 MicroProfile Specifications and it depends on the Jakarta EE Core Profile 10.0 specfication.
 
 * MicroProfile Config 3.1
 

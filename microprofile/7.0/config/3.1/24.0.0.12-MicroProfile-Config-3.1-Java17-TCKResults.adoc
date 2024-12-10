@@ -11,7 +11,7 @@ https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/release
 
 * Specification Name, Version and download URL:
 +
-https://github.com/eclipse/microprofile-config/tree/3.1[MicroProfile Config 3.1 Specification]
+https://repo1.maven.org/maven2/org/eclipse/microprofile/config/microprofile-config-spec/3.1/[MicroProfile Config 3.1 Specification]
 
 * (Optional) TCK Version, digital fingerprint and download URL:
 +

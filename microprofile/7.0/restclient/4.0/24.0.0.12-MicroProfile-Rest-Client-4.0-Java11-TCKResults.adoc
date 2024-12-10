@@ -11,7 +11,7 @@ https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/release
 
 * Specification Name, Version and download URL:
 +
-https://github.com/eclipse/microprofile-rest-client/tree/4.0[MicroProfile Rest Client 4.0 Specification]
+https://repo1.maven.org/maven2/org/eclipse/microprofile/rest/client/microprofile-rest-client-spec/4.0/[MicroProfile Rest Client 4.0 Specification]
 
 * (Optional) TCK Version, digital fingerprint and download URL:
 +

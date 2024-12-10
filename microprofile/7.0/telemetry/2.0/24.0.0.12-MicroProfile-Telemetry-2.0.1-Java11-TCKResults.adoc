@@ -15,7 +15,7 @@ https://repo1.maven.org/maven2/org/eclipse/microprofile/telemetry/microprofile-t
 
 * (Optional) TCK Version, digital fingerprint and download URL:
 +
-https://repo1.maven.org/maven2/org/eclipse/microprofile/telemetry/microprofile-telemetry-tck/2.0.1/microprofile-telemetry-tck-2.0.1.jar[MicroProfile Telemetry 2.0.1 TCK]
+https://repo1.maven.org/maven2/org/eclipse/microprofile/telemetry/microprofile-telemetry-logs-tck/2.0.1/microprofile-telemetry-logs-tck-2.0.1.jar[MicroProfile Telemetry 2.0.1 TCK]
 +
 SHA-1: `4428113f9b2c61e58dee02f1752c73bae57e67a6`
 +

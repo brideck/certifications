@@ -15,23 +15,23 @@ https://repo1.maven.org/maven2/org/eclipse/microprofile/telemetry/microprofile-t
 
 * (Optional) TCK Version, digital fingerprint and download URL:
 +
-https://repo1.maven.org/maven2/org/eclipse/microprofile/telemetry/microprofile-telemetry-logs-tck/2.0.1/microprofile-telemetry-logs-tck-2.0.1.jar[MicroProfile Telemetry 2.0.1 TCK]
+https://repo1.maven.org/maven2/org/eclipse/microprofile/telemetry/microprofile-telemetry-logs-tck/2.0.1/microprofile-telemetry-logs-tck-2.0.1.jar[MicroProfile Telemetry 2.0.1 Logs TCK]
 +
 SHA-1: `4428113f9b2c61e58dee02f1752c73bae57e67a6`
 +
 SHA-256: `348b4fb1e8920ddbefa4f19cffff1b63fd7861eb847d1fd62f2bdbe3fd7c50be`
 +
-https://repo1.maven.org/maven2/org/eclipse/microprofile/telemetry/microprofile-telemetry-tck/2.0.1/microprofile-telemetry-tck-2.0.1.jar[MicroProfile Telemetry 2.0.1 TCK]
+https://repo1.maven.org/maven2/org/eclipse/microprofile/telemetry/microprofile-telemetry-metrics-tck/2.0.1/microprofile-telemetry-metrics-tck-2.0.1.jar[MicroProfile Telemetry 2.0.1 Metrics TCK]
 +
-SHA-1: `4428113f9b2c61e58dee02f1752c73bae57e67a6`
+SHA-1: `3e0db254dc55e47a62420a51cf528d92cf208c4c`
 +
-SHA-256: `348b4fb1e8920ddbefa4f19cffff1b63fd7861eb847d1fd62f2bdbe3fd7c50be`
+SHA-256: `ce5b1764ac4b8944360886bc601a6373fe4d34b0f6941edf1f303f73039595d4`
 +
-https://repo1.maven.org/maven2/org/eclipse/microprofile/telemetry/microprofile-telemetry-tck/2.0.1/microprofile-telemetry-tck-2.0.1.jar[MicroProfile Telemetry 2.0.1 TCK]
+https://repo1.maven.org/maven2/org/eclipse/microprofile/telemetry/microprofile-telemetry-tracing-tck/2.0.1/microprofile-telemetry-tracing-tck-2.0.1.jar[MicroProfile Telemetry 2.0.1 TCK]
 +
-SHA-1: `4428113f9b2c61e58dee02f1752c73bae57e67a6`
+SHA-1: `a6ed22c5caaa4f59a0cc8839f7a46c7174aff9ac`
 +
-SHA-256: `348b4fb1e8920ddbefa4f19cffff1b63fd7861eb847d1fd62f2bdbe3fd7c50be`
+SHA-256: `696b4cb55633778a2818d8ff2595e723419f88eb24c08162210ca85d689267fa`
 
 * Public URL of TCK Results Summary:
 +

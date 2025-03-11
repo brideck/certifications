@@ -1,0 +1,199 @@
+:page-layout: certification 
+= TCK Results
+
+As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of MicroProfile GraphQL 2.0
+
+== Open Liberty 25.0.0.3 - MicroProfile GraphQL 2.0 Certification Summary (Java 21)
+
+* Product Name, Version and download URL (if applicable):
++
+https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/release/25.0.0.3/openliberty-25.0.0.3.zip[Open Liberty 25.0.0.3]
+
+* Specification Name, Version and download URL:
++
+https://github.com/eclipse/microprofile-graphql/tree/2.0[MicroProfile GraphQL 2.0 Specification]
+
+* (Optional) TCK Version, digital fingerprint and download URL:
++
+https://repo1.maven.org/maven2/org/eclipse/microprofile/graphql/microprofile-graphql-tck/2.0/microprofile-graphql-tck-2.0.jar[MicroProfile GraphQL 2.0 TCK]
++
+SHA-1: `8abacaa35e34ab80432843d0b68abf0e91d36518`
++
+SHA-256: `644b7c8c3a3a68d583a93a7c88defcb379e21f17945b0cad91618f55c1ddaff0`
+
+* Public URL of TCK Results Summary:
++
+xref:25.0.0.3-MicroProfile-GraphQL-2.0-Java21-TCKResults.adoc[TCK results summary]
+
+
+* Java runtime used to run the implementation:
++
+Java 21: IBM Semeru Runtime Open Edition (21.0.6+7-LTS)
+
+* Summary of the information for the certification environment, operating system, cloud, ...:
++
+Linux: Linux version 6.8.0-53-generic (buildd@lcy02-amd64-046) (x86_64-linux-gnu-gcc-13 (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0, GNU ld (GNU Binutils for Ubuntu) 2.42) #55-Ubuntu SMP PREEMPT_DYNAMIC Fri Jan 17 15:37:52 UTC 2025
+
+Report generated at: 2025-03-05T07:40:04Z
+Test results:
+
+[source, text]
+----
+Test suite: org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest 2025-03-05T07:39:53 UTC
+Tests:155 Failures:0 Errors:0
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testResponse Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+   org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
+----

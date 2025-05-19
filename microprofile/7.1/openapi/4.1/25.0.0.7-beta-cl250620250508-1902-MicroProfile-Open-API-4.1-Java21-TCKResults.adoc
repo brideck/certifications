@@ -15,7 +15,7 @@ https://github.com/eclipse/microprofile-open-api/tree/4.1[MicroProfile Open API 
 
 * (Optional) TCK Version, digital fingerprint and download URL:
 +
-https://repo1.maven.org/maven2/org/eclipse/microprofile/open-api/microprofile-open-api-tck/4.1/microprofile-open-api-tck-4.1.jar[MicroProfile Open API 4.1 TCK]
+https://oss.sonatype.org/content/repositories/orgeclipsemicroprofile-1736/org/eclipse/microprofile/openapi/microprofile-openapi-tck/4.1/microprofile-openapi-tck-4.1.jar[MicroProfile Open API 4.1 TCK]
 +
 SHA-1: `5e3b03db45e4da2ceaa6702ab61c8f4a3c3e8f8a`
 +
@@ -23,7 +23,7 @@ SHA-256: `994eaca486ab8641df395b1665e1be7bff3f30067499ccea3200dc727c17138f`
 
 * Public URL of TCK Results Summary:
 +
-xref:25.0.0.7-beta-cl250620250508-1902-Open-API-4.1-Java21-TCKResults.adoc[TCK results summary]
+xref:25.0.0.7-beta-cl250620250508-1902-MicroProfile-Open-API-4.1-Java21-TCKResults.adoc[TCK results summary]
 
 
 * Java runtime used to run the implementation:
